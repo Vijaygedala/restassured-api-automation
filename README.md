@@ -3,7 +3,7 @@ A reusable API automation framework built using Java, Rest Assured, TestNG, Asse
 
 This framework is designed to automate REST API testing with reusable utilities, centralized reporting, logging, and support for Docker execution.
 
-#Project Features
+# Project Features
 * Reusable Request Builder
 * CRUD Utility Methods
 * POJO Serialization and Deserialization
@@ -59,7 +59,7 @@ src
 
 ```
 
-#Initial Setup to run this framework using TestNG XML or Docker Image
+# Initial Setup to run this framework using TestNG XML or Docker Image
 Skip this setup if you want to run the framework against your own API by changing the base URL in config.properties.
 
 **1.Download and install Node.js from:**
@@ -93,7 +93,7 @@ Open the URL in browser to verify the data.
 GET,POST,PUT,DELETE operations on this API.
 
 ---
-#Run Framework in Local System Using IDE
+# Run Framework in Local System Using IDE
 Clone or Download Project
 
 Right click on: testng.xml 
@@ -105,7 +105,8 @@ After execution, reports will be available in: extent-test-output/index.html
 Open index.html in browser to view the report.
 
 ---
-#Run Framework Using Docker Image
+# Run Framework Using Docker Image
+
 **1.[Install Docker Desktop](https://www.docker.com/products/docker-desktop/)**
 
 Verify installation: docker --version
@@ -125,7 +126,7 @@ After execution, reports will be available in: C:\docker-reports
 
 Open index.html in browser to view the report.
 
-#Docker Command Explanation
+# Docker Command Explanation
 ```markdown
 | Command            | Purpose                               |
 | ------------------ | ------------------------------------- |
@@ -137,25 +138,25 @@ Open index.html in browser to view the report.
 
 ```
 ----
-#Build Docker Image
+# Build Docker Image
 ```bash
 docker build -t <imagename>:<tag> .
 ```
-#Create docker image on top of a container (Base image)
+# Create docker image on top of a container (Base image)
 ```bash
 docker commit <<containerid>>
 docker tag <<container/image id>> <<newImageName>>
 docker build -t <<newImageName>>
 ```
 
-#Push image to docker hub
+# Push image to docker hub
 ```bash
 docker login
 docker push <<imagename>>
 ```
 
 
-#Author
+# Author
 **Vijay Gedala**
 
 ---
