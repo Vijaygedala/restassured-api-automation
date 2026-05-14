@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="9.792" tests="5" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="sun.awt.enableExtraMouseButtons" value="true"/>
+    <property name="java.class.path" value="C:\Users\Vijay\Desktop\frameWork\APIProject_1\RestAssured\target\test-classes;C:\Users\Vijay\Desktop\frameWork\APIProject_1\RestAssured\target\classes;C:\Users\Vijay\.m2\repository\io\rest-assured\rest-assured\6.0.0\rest-assured-6.0.0.jar;C:\Users\Vijay\.m2\repository\org\apache\groovy\groovy\5.0.3\groovy-5.0.3.jar;C:\Users\Vijay\.m2\repository\org\apache\groovy\groovy-xml\5.0.3\groovy-xml-5.0.3.jar;C:\Users\Vijay\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Vijay\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Vijay\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Vijay\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Vijay\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Vijay\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Vijay\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Vijay\.m2\repository\io\rest-assured\json-path\6.0.0\json-path-6.0.0.jar;C:\Users\Vijay\.m2\repository\org\apache\groovy\groovy-json\5.0.3\groovy-json-5.0.3.jar;C:\Users\Vijay\.m2\repository\io\rest-assured\rest-assured-common\6.0.0\rest-assured-common-6.0.0.jar;C:\Users\Vijay\.m2\repository\io\rest-assured\xml-path\6.0.0\xml-path-6.0.0.jar;C:\Users\Vijay\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\Vijay\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\Vijay\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\Vijay\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Vijay\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Vijay\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\Vijay\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Vijay\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Vijay\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\Vijay\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.21.2\jackson-databind-2.21.2.jar;C:\Users\Vijay\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.21\jackson-annotations-2.21.jar;C:\Users\Vijay\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.21.2\jackson-core-2.21.2.jar;C:\Users\Vijay\.m2\repository\org\json\json\20251224\json-20251224.jar;C:\Users\Vijay\.m2\repository\org\projectlombok\lombok\1.18.44\lombok-1.18.44.jar;C:\Users\Vijay\.m2\repository\org\assertj\assertj-core\4.0.0-M1\assertj-core-4.0.0-M1.jar;C:\Users\Vijay\.m2\repository\net\bytebuddy\byte-buddy\1.17.1\byte-buddy-1.17.1.jar;C:\Users\Vijay\.m2\repository\io\rest-assured\json-schema-validator\6.0.0\json-schema-validator-6.0.0.jar;C:\Users\Vijay\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\Vijay\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\Vijay\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\Vijay\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\Vijay\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\Vijay\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\Vijay\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\Vijay\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\Vijay\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\Vijay\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\Vijay\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\Vijay\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Vijay\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\Vijay\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\Vijay\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Vijay\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Vijay\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\Vijay\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\Vijay\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Vijay\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\Vijay\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\Vijay\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Vijay\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\Vijay\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Vijay\.m2\repository\org\apache\logging\log4j\log4j-core\2.25.2\log4j-core-2.25.2.jar;C:\Users\Vijay\.m2\repository\org\apache\logging\log4j\log4j-api\2.25.2\log4j-api-2.25.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25\bin"/>
+    <property name="sun.java.command" value="C:\Users\Vijay\AppData\Local\Temp\surefire10885835111691534624\surefirebooter-20260509092038161_3.jar C:\Users\Vijay\AppData\Local\Temp\surefire10885835111691534624 2026-05-09T09-20-37_880-jvmRun1 surefire-20260509092038161_1tmp surefire_0-20260509092038161_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Vijay\Desktop\frameWork\APIProject_1\RestAssured\target\test-classes;C:\Users\Vijay\Desktop\frameWork\APIProject_1\RestAssured\target\classes;C:\Users\Vijay\.m2\repository\io\rest-assured\rest-assured\6.0.0\rest-assured-6.0.0.jar;C:\Users\Vijay\.m2\repository\org\apache\groovy\groovy\5.0.3\groovy-5.0.3.jar;C:\Users\Vijay\.m2\repository\org\apache\groovy\groovy-xml\5.0.3\groovy-xml-5.0.3.jar;C:\Users\Vijay\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Vijay\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Vijay\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Vijay\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Vijay\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Vijay\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Vijay\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Vijay\.m2\repository\io\rest-assured\json-path\6.0.0\json-path-6.0.0.jar;C:\Users\Vijay\.m2\repository\org\apache\groovy\groovy-json\5.0.3\groovy-json-5.0.3.jar;C:\Users\Vijay\.m2\repository\io\rest-assured\rest-assured-common\6.0.0\rest-assured-common-6.0.0.jar;C:\Users\Vijay\.m2\repository\io\rest-assured\xml-path\6.0.0\xml-path-6.0.0.jar;C:\Users\Vijay\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\Vijay\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\Vijay\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\Vijay\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Vijay\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Vijay\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\Vijay\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Vijay\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Vijay\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\Vijay\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.21.2\jackson-databind-2.21.2.jar;C:\Users\Vijay\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.21\jackson-annotations-2.21.jar;C:\Users\Vijay\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.21.2\jackson-core-2.21.2.jar;C:\Users\Vijay\.m2\repository\org\json\json\20251224\json-20251224.jar;C:\Users\Vijay\.m2\repository\org\projectlombok\lombok\1.18.44\lombok-1.18.44.jar;C:\Users\Vijay\.m2\repository\org\assertj\assertj-core\4.0.0-M1\assertj-core-4.0.0-M1.jar;C:\Users\Vijay\.m2\repository\net\bytebuddy\byte-buddy\1.17.1\byte-buddy-1.17.1.jar;C:\Users\Vijay\.m2\repository\io\rest-assured\json-schema-validator\6.0.0\json-schema-validator-6.0.0.jar;C:\Users\Vijay\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\Vijay\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\Vijay\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\Vijay\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\Vijay\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\Vijay\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\Vijay\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\Vijay\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\Vijay\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\Vijay\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\Vijay\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\Vijay\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Vijay\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\Vijay\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\Vijay\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Vijay\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Vijay\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\Vijay\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\Vijay\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Vijay\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\Vijay\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\Vijay\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Vijay\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\Vijay\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Vijay\.m2\repository\org\apache\logging\log4j\log4j-core\2.25.2\log4j-core-2.25.2.jar;C:\Users\Vijay\.m2\repository\org\apache\logging\log4j\log4j-api\2.25.2\log4j-api-2.25.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Vijay"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-10-21"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-25"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Vijay\Desktop\frameWork\APIProject_1\RestAssured"/>
+    <property name="style.color" value="always"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Vijay\AppData\Local\Temp\surefire10885835111691534624\surefirebooter-20260509092038161_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="25.0.1+8-LTS-27"/>
+    <property name="user.name" value="Vijay"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Vijay\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Vijay\AppData\Local\Temp\"/>
+    <property name="java.version" value="25.0.1"/>
+    <property name="user.dir" value="C:\Users\Vijay\Desktop\frameWork\APIProject_1\RestAssured"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-25\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Microsoft MPI\Bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Azure Data Studio\bin;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-25\bin;C:\Users\Vijay\maven\apache-maven-3.9.12-bin\apache-maven-3.9.12\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\Users\Vijay\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\Vijay\AppData\Local\Programs\Python\Python37\;C:\Users\Vijay\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Azure Data Studio\bin;C:\Users\Vijay\AppData\Local\Programs\Microsoft VS Code Insiders\bin;C:\Users\Vijay\AppData\Local\gitkraken\bin;C:\Users\Vijay\AppData\Roaming\npm;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.0.1+8-LTS-27"/>
+    <property name="stdin.encoding" value="Cp1252"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="UserService" classname="com.gedala.tests.CrudTest" time="5.341">
+    <system-out><![CDATA[2026-05-09 09:20:41 [main] INFO  [Thread-3] The passed Pojo data: {
+  "id" : 818,
+  "firstname" : "kurtis",
+  "lastname" : "brown",
+  "email" : "domonique.satterfield@yahoo.com"
+}
+2026-05-09 09:20:41 [main] INFO  [Thread-3] Creating a new  user
+Request method:	POST
+Request URI:	http://localhost:3000/employees/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 818,
+    "firstname": "kurtis",
+    "lastname": "brown",
+    "email": "domonique.satterfield@yahoo.com"
+}
+2026-05-09 09:20:44 [main] INFO  [Thread-3] {
+    "id": 818,
+    "firstname": "kurtis",
+    "lastname": "brown",
+    "email": "domonique.satterfield@yahoo.com"
+}
+2026-05-09 09:20:45 [main] INFO  [Thread-3] Updating an existing user
+Request method:	PUT
+Request URI:	http://localhost:3000/employees/818
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 735,
+    "firstname": "corina",
+    "lastname": "veum",
+    "email": "marion.larson@hotmail.com"
+}
+2026-05-09 09:20:45 [main] INFO  [Thread-3] {
+    "id": "818",
+    "firstname": "corina",
+    "lastname": "veum",
+    "email": "marion.larson@hotmail.com"
+}
+2026-05-09 09:20:45 [main] INFO  [Thread-3] Deleting the created user
+Request method:	DELETE
+Request URI:	http://localhost:3000/employees/818
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+2026-05-09 09:20:45 [main] INFO  [Thread-3] Validating the created user is not present in the Api after deleting 
+Request method:	GET
+Request URI:	http://localhost:3000/employees/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+2026-05-09 09:20:45 [main] INFO  [Thread-3] PASS : UserService is passed
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="postRequestUsingExternalFile[public void com.gedala.tests.PostTest.postRequestUsingExternalFile(java.lang.reflect.Method)](1)" classname="com.gedala.tests.PostTest" time="0.077">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	http://localhost:3000/employees/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": "343",
+    "firstname": "tyree",
+    "lastname": "tommye",
+    "email": "gustavo.hoeger@gmail.com"
+}
+2026-05-09 09:20:45 [main] INFO  [Thread-3] {
+    "id": "343",
+    "firstname": "tyree",
+    "lastname": "tommye",
+    "email": "gustavo.hoeger@gmail.com"
+}
+2026-05-09 09:20:45 [main] INFO  [Thread-3] PASS : postRequestUsingExternalFile is passed
+]]></system-out>
+  </testcase>
+  <testcase name="postTests" classname="com.gedala.tests.PostTest" time="0.051">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	http://localhost:3000/employees/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 368,
+    "firstname": "rey",
+    "lastname": "hilpert",
+    "email": null
+}
+2026-05-09 09:20:45 [main] INFO  [Thread-3] {
+    "id": 368,
+    "firstname": "rey",
+    "lastname": "hilpert",
+    "email": null
+}
+2026-05-09 09:20:45 [main] INFO  [Thread-3] PASS : postTests is passed
+]]></system-out>
+  </testcase>
+  <testcase name="getEmployeeDetail" classname="com.gedala.tests.GetTest" time="0.069">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	http://localhost:3000/employees/3
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=3
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+2026-05-09 09:20:45 [main] INFO  [Thread-3] {
+    "id": "3",
+    "firstname": "Anita",
+    "lastname": "Reddy",
+    "email": "anita.reddy@example.com"
+}
+2026-05-09 09:20:45 [main] INFO  [Thread-3] PASS : getEmployeeDetail is passed
+]]></system-out>
+  </testcase>
+  <testcase name="getEmployeeDetails" classname="com.gedala.tests.GetTest" time="0.063">
+    <failure message="&#10;Expecting actual:&#10;  50&#10;to be greater than:&#10;  100&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+
+Expecting actual:
+  50
+to be greater than:
+  100
+
+	at com.gedala.tests.GetTest.getEmployeeDetails(GetTest.java:23)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[Request method:	GET
+Request URI:	http://localhost:3000/employees
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+2026-05-09 09:20:45 [main] INFO  [Thread-3] [
+    {
+        "id": "3",
+        "firstname": "Anita",
+        "lastname": "Reddy",
+        "email": "anita.reddy@example.com"
+    },
+    {
+        "id": "123",
+        "firstname": "VIJAY",
+        "lastname": "GEDALA",
+        "email": "abc@gmail.com"
+    },
+    {
+        "id": "315",
+        "firstname": "malcolm",
+        "lastname": "jude",
+        "email": "abcJson@gmail.com"
+    },
+    {
+        "firstname": "Vijay",
+        "lastname": "Gedala",
+        "email": "VijayGedala@Gmail.com",
+        "id": "852"
+    },
+    {
+        "id": "919",
+        "firstname": "christian",
+        "lastname": "carmen",
+        "email": "mariann.haag@gmail.com"
+    },
+    {
+        "id": "773",
+        "firstname": "vada",
+        "lastname": "herzog",
+        "email": null
+    },
+    {
+        "id": "300",
+        "firstname": "jewell",
+        "lastname": "aurelio",
+        "email": "elton.mitchell@yahoo.com"
+    },
+    {
+        "id": "968",
+        "firstname": "floyd",
+        "lastname": "gerlach",
+        "email": null
+    },
+    {
+        "id": "411",
+        "firstname": "corey",
+        "lastname": "tony",
+        "email": "isidro.toy@yahoo.com"
+    },
+    {
+        "id": "785",
+        "firstname": "reuben",
+        "lastname": "veum",
+        "email": null
+    },
+    {
+        "id": "309",
+        "firstname": "martin",
+        "lastname": "rodrick",
+        "email": "beverley.becker@hotmail.com"
+    },
+    {
+        "id": "814",
+        "firstname": "drew",
+        "lastname": "lockman",
+        "email": null
+    },
+    {
+        "id": "162",
+        "firstname": "myong",
+        "lastname": "rolland",
+        "email": "josue.wuckert@gmail.com"
+    },
+    {
+        "id": "769",
+        "firstname": "ivy",
+        "lastname": "medhurst",
+        "email": null
+    },
+    {
+        "id": "931",
+        "firstname": "winter",
+        "lastname": "ellis",
+        "email": "salome.lemke@hotmail.com"
+    },
+    {
+        "id": "237",
+        "firstname": "doreen",
+        "lastname": "ebert",
+        "email": null
+    },
+    {
+        "id": "445",
+        "firstname": "mikaela",
+        "lastname": "fidela",
+        "email": "pasquale.wisoky@gmail.com"
+    },
+    {
+        "id": "586",
+        "firstname": "hilton",
+        "lastname": "mohr",
+        "email": null
+    },
+    {
+        "id": "801",
+        "firstname": "jose",
+        "lastname": "starr",
+        "email": "edda.hartmann@yahoo.com"
+    },
+    {
+        "id": "236",
+        "firstname": "yasmin",
+        "lastname": "breitenberg",
+        "email": null
+    },
+    {
+        "id": "988",
+        "firstname": "chong",
+        "lastname": "mickey",
+        "email": "cherelle.mills@gmail.com"
+    },
+    {
+        "id": "177",
+        "firstname": "tracey",
+        "lastname": "carter",
+        "email": null
+    },
+    {
+        "id": "721",
+        "firstname": "britt",
+        "lastname": "gregory",
+        "email": "sal.schuppe@gmail.com"
+    },
+    {
+        "id": "293",
+        "firstname": "tatum",
+        "lastname": "heaney",
+        "email": null
+    },
+    {
+        "id": "156",
+        "firstname": "toney",
+        "lastname": "cassi",
+        "email": "marlen.hodkiewicz@yahoo.com"
+    },
+    {
+        "id": "211",
+        "firstname": "wes",
+        "lastname": "wyman",
+        "email": null
+    },
+    {
+        "id": "376",
+        "firstname": "olive",
+        "lastname": "carmine",
+        "email": "mikel.smitham@yahoo.com"
+    },
+    {
+        "id": "642",
+        "firstname": "angelo",
+        "lastname": "bednar",
+        "email": null
+    },
+    {
+        "id": "118",
+        "firstname": "ines",
+        "lastname": "rolland",
+        "email": "kyoko.nitzsche@gmail.com"
+    },
+    {
+        "id": "383",
+        "firstname": "fredrick",
+        "lastname": "boehm",
+        "email": null
+    },
+    {
+        "id": "739",
+        "firstname": "christi",
+        "lastname": "kerri",
+        "email": "louvenia.bednar@hotmail.com"
+    },
+    {
+        "id": "907",
+        "firstname": "dave",
+        "lastname": "bahringer",
+        "email": null
+    },
+    {
+        "id": "259",
+        "firstname": "mendy",
+        "lastname": "aurelio",
+        "email": "titus.pouros@yahoo.com"
+    },
+    {
+        "id": "723",
+        "firstname": "kai",
+        "lastname": "schroeder",
+        "email": null
+    },
+    {
+        "id": "740",
+        "firstname": "sherlene",
+        "lastname": "faviola",
+        "email": "stacy.daniel@yahoo.com"
+    },
+    {
+        "id": "143",
+        "firstname": "esperanza",
+        "lastname": "hettinger",
+        "email": null
+    },
+    {
+        "id": "423",
+        "firstname": "quentin",
+        "lastname": "maryalice",
+        "email": "henry.mann@yahoo.com"
+    },
+    {
+        "id": "114",
+        "firstname": "alaina",
+        "lastname": "heidenreich",
+        "email": null
+    },
+    {
+        "id": "137",
+        "firstname": "glenn",
+        "lastname": "riley",
+        "email": "lyndon.osinski@gmail.com"
+    },
+    {
+        "id": "173",
+        "firstname": "adrienne",
+        "lastname": "kuvalis",
+        "email": null
+    },
+    {
+        "id": "988",
+        "firstname": "reyes",
+        "lastname": "harmony",
+        "email": "isiah.brakus@hotmail.com"
+    },
+    {
+        "id": "576",
+        "firstname": "veda",
+        "lastname": "hauck",
+        "email": null
+    },
+    {
+        "id": "701",
+        "firstname": "jimmie",
+        "lastname": "norbert",
+        "email": "sharika.ledner@gmail.com"
+    },
+    {
+        "id": "578",
+        "firstname": "maria",
+        "lastname": "durgan",
+        "email": null
+    },
+    {
+        "id": "273",
+        "firstname": "kaylene",
+        "lastname": "lonnie",
+        "email": "julian.schiller@hotmail.com"
+    },
+    {
+        "id": "365",
+        "firstname": "ramon",
+        "lastname": "hoeger",
+        "email": null
+    },
+    {
+        "id": "272",
+        "firstname": "ivory",
+        "lastname": "sachiko",
+        "email": "calvin.hettinger@hotmail.com"
+    },
+    {
+        "id": "740",
+        "firstname": "tonette",
+        "lastname": "anderson",
+        "email": null
+    },
+    {
+        "id": "343",
+        "firstname": "tyree",
+        "lastname": "tommye",
+        "email": "gustavo.hoeger@gmail.com"
+    },
+    {
+        "id": "368",
+        "firstname": "rey",
+        "lastname": "hilpert",
+        "email": null
+    }
+]
+2026-05-09 09:20:45 [main] ERROR [Thread-3] FAIL : getEmployeeDetails is failed
+2026-05-09 09:20:45 [main] ERROR [Thread-3] FAIL : java.lang.AssertionError: 
+Expecting actual:
+  50
+to be greater than:
+  100
+]]></system-out>
+  </testcase>
+</testsuite>

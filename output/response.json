@@ -1,0 +1,19 @@
+{
+  "142": "number",
+  "id": "ca73",
+  "carmel": "VIJAYJson",
+  "lastname": "GEDALAJson",
+  "email": "abcJson@gmail.com",
+  "jobs": [
+    "tester",
+    "trainer"
+  ],
+  "favfoods": {
+    "breakfast": "142ly",
+    "lunch": "rice",
+    "dinner": [
+      "Chapati",
+      "milk"
+    ]
+  }
+}

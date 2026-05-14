@@ -1,0 +1,5664 @@
+2026-05-03 20:17:02 [main] INFO  [Thread-3] [
+    {
+        "id": "3",
+        "firstname": "Anita",
+        "lastname": "Reddy",
+        "email": "anita.reddy@example.com"
+    },
+    {
+        "id": "123",
+        "firstname": "VIJAY",
+        "lastname": "GEDALA",
+        "email": "abc@gmail.com"
+    },
+    {
+        "id": "315",
+        "firstname": "malcolm",
+        "lastname": "jude",
+        "email": "abcJson@gmail.com"
+    },
+    {
+        "id": "583",
+        "firstname": "deon",
+        "lastname": "seymour",
+        "email": "maximo.larkin@hotmail.com"
+    }
+]
+2026-05-03 20:17:03 [main] ERROR [Thread-3] FAIL : java.lang.AssertionError: 
+Expecting actual:
+  4
+to be greater than:
+  10
+
+2026-05-03 20:30:14 [main] INFO  [Thread-3] {
+    "id": "747",
+    "firstname": "lawrence",
+    "lastname": "eufemia",
+    "email": "rolland.fadel@gmail.com"
+}
+2026-05-03 20:30:15 [main] INFO  [Thread-3] {
+    "id": 716,
+    "fname": "curt",
+    "lname": "heller",
+    "email": null
+}
+2026-05-03 20:30:15 [main] INFO  [Thread-3] {
+    "id": "3",
+    "firstname": "Anita",
+    "lastname": "Reddy",
+    "email": "anita.reddy@example.com"
+}
+2026-05-03 20:30:15 [main] INFO  [Thread-3] [
+    {
+        "id": "3",
+        "firstname": "Anita",
+        "lastname": "Reddy",
+        "email": "anita.reddy@example.com"
+    },
+    {
+        "id": "123",
+        "firstname": "VIJAY",
+        "lastname": "GEDALA",
+        "email": "abc@gmail.com"
+    },
+    {
+        "id": "315",
+        "firstname": "malcolm",
+        "lastname": "jude",
+        "email": "abcJson@gmail.com"
+    },
+    {
+        "id": "583",
+        "firstname": "deon",
+        "lastname": "seymour",
+        "email": "maximo.larkin@hotmail.com"
+    },
+    {
+        "id": "747",
+        "firstname": "lawrence",
+        "lastname": "eufemia",
+        "email": "rolland.fadel@gmail.com"
+    },
+    {
+        "id": "716",
+        "fname": "curt",
+        "lname": "heller",
+        "email": null
+    }
+]
+2026-05-03 20:54:03 [main] INFO  [Thread-3] Unexpected token 'c', "com.gedala"... is not valid JSON
+2026-05-03 20:54:03 [main] ERROR [Thread-3] FAIL : java.lang.AssertionError: 
+expected: 201
+ but was: 500
+2026-05-03 20:54:33 [main] INFO  [Thread-3] Unexpected token 'c', "com.gedala"... is not valid JSON
+2026-05-03 20:54:33 [main] ERROR [Thread-3] FAIL : java.lang.AssertionError: 
+expected: 201
+ but was: 500
+2026-05-03 20:54:53 [main] INFO  [Thread-3] Unexpected token 'c', "com.gedala"... is not valid JSON
+2026-05-03 20:54:53 [main] ERROR [Thread-3] FAIL : java.lang.AssertionError: 
+expected: 201
+ but was: 500
+2026-05-03 21:07:25 [main] INFO  [Thread-3] {
+    "id": 799,
+    "fname": "sacha",
+    "lname": "stroman",
+    "email": null
+}
+2026-05-03 21:07:26 [main] INFO  [Thread-3] {
+    "id": 799,
+    "fname": "sacha",
+    "lname": "stroman",
+    "email": null
+}
+2026-05-03 21:08:59 [main] INFO  [Thread-3] {
+    "id": 252,
+    "fname": "charley",
+    "lname": "hamill",
+    "email": "reina.green@gmail.com"
+}
+2026-05-03 21:08:59 [main] INFO  [Thread-3] {
+    "id": 252,
+    "fname": "charley",
+    "lname": "hamill",
+    "email": "reina.green@gmail.com"
+}
+2026-05-03 21:10:26 [main] INFO  [Thread-3] {
+    "id": 793,
+    "fname": "sana",
+    "lname": "kuvalis",
+    "email": "bella.murphy@hotmail.com"
+}
+2026-05-03 21:10:27 [main] INFO  [Thread-3] {
+    "id": 793,
+    "fname": "sana",
+    "lname": "kuvalis",
+    "email": "bella.murphy@hotmail.com"
+}
+2026-05-03 21:12:28 [main] INFO  [Thread-3] {
+    "id": 527,
+    "fname": "brian",
+    "lname": "hackett",
+    "email": "jc.lubowitz@gmail.com"
+}
+2026-05-03 21:12:28 [main] INFO  [Thread-3] Not Found
+2026-05-03 21:12:28 [main] ERROR [Thread-3] FAIL : java.lang.AssertionError: 
+expected: 201
+ but was: 404
+2026-05-03 21:13:54 [main] INFO  [Thread-3] {
+    "id": 240,
+    "fname": "rocco",
+    "lname": "hahn",
+    "email": "sanford.veum@yahoo.com"
+}
+2026-05-03 21:13:55 [main] INFO  [Thread-3] {
+    "firstname": "Vijay",
+    "lastname": "Gedala",
+    "email": "VijayGedala@Gmail.com",
+    "id": "240"
+}
+2026-05-03 21:13:55 [main] ERROR [Thread-3] FAIL : java.lang.AssertionError: 
+expected: 201
+ but was: 200
+2026-05-03 21:34:54 [main] INFO  [Thread-3] The Payload :com.gedala.pojo.Employee@2f4ba1ae
+2026-05-03 21:34:54 [main] INFO  [Thread-3] Creating a new  user
+2026-05-03 21:34:56 [main] INFO  [Thread-3] {
+    "id": 388,
+    "fname": "rena",
+    "lname": "walter",
+    "email": "hai.schinner@yahoo.com"
+}
+2026-05-03 21:34:57 [main] INFO  [Thread-3] Updating an existing user
+2026-05-03 21:34:57 [main] INFO  [Thread-3] {
+    "firstname": "Vijay",
+    "lastname": "Gedala",
+    "email": "VijayGedala@Gmail.com",
+    "id": "388"
+}
+2026-05-03 21:35:19 [main] INFO  [Thread-3] The Payload :com.gedala.pojo.Employee@2f4ba1ae
+2026-05-03 21:35:19 [main] INFO  [Thread-3] Creating a new  user
+2026-05-03 21:35:22 [main] INFO  [Thread-3] {
+    "id": 511,
+    "fname": "quintin",
+    "lname": "schmidt",
+    "email": "deandra.ernser@yahoo.com"
+}
+2026-05-03 21:35:23 [main] INFO  [Thread-3] Updating an existing user
+2026-05-03 21:35:23 [main] INFO  [Thread-3] {
+    "firstname": "Vijay",
+    "lastname": "Gedala",
+    "email": "VijayGedala@Gmail.com",
+    "id": "511"
+}
+2026-05-03 21:41:01 [main] INFO  [Thread-3] The passed Pojo data: "The Payload :com.gedala.pojo.Employee@2f4ba1ae"
+2026-05-03 21:41:01 [main] INFO  [Thread-3] Creating a new  user
+2026-05-03 21:41:03 [main] INFO  [Thread-3] {
+    "id": 532,
+    "fname": "scarlett",
+    "lname": "effertz",
+    "email": "monroe.schultz@yahoo.com"
+}
+2026-05-03 21:41:04 [main] INFO  [Thread-3] Updating an existing user
+2026-05-03 21:41:04 [main] INFO  [Thread-3] {
+    "firstname": "Vijay",
+    "lastname": "Gedala",
+    "email": "VijayGedala@Gmail.com",
+    "id": "532"
+}
+2026-05-03 21:45:41 [main] INFO  [Thread-3] The passed Pojo data: {
+  "id" : 807,
+  "fname" : "mohammad",
+  "lname" : "price",
+  "email" : "guillermo.lowe@yahoo.com"
+}
+2026-05-03 21:45:41 [main] INFO  [Thread-3] Creating a new  user
+2026-05-03 21:45:44 [main] INFO  [Thread-3] {
+    "id": 807,
+    "fname": "mohammad",
+    "lname": "price",
+    "email": "guillermo.lowe@yahoo.com"
+}
+2026-05-03 21:45:44 [main] INFO  [Thread-3] Updating an existing user
+2026-05-03 21:45:44 [main] INFO  [Thread-3] {
+    "firstname": "Vijay",
+    "lastname": "Gedala",
+    "email": "VijayGedala@Gmail.com",
+    "id": "807"
+}
+2026-05-03 21:48:51 [main] INFO  [Thread-3] The passed Pojo data: {
+  "id" : 568,
+  "fname" : "sumiko",
+  "lname" : "boehm",
+  "email" : "sydney.schumm@yahoo.com"
+}
+2026-05-03 21:48:51 [main] INFO  [Thread-3] Creating a new  user
+2026-05-03 21:48:53 [main] INFO  [Thread-3] {
+    "id": 568,
+    "fname": "sumiko",
+    "lname": "boehm",
+    "email": "sydney.schumm@yahoo.com"
+}
+2026-05-03 21:48:53 [main] INFO  [Thread-3] Updating an existing user
+2026-05-03 21:48:54 [main] INFO  [Thread-3] {
+    "firstname": "Vijay",
+    "lastname": "Gedala",
+    "email": "VijayGedala@Gmail.com",
+    "id": "568"
+}
+2026-05-03 22:06:21 [main] INFO  [Thread-3] The passed Pojo data: {
+  "id" : 607,
+  "fname" : "rodrigo",
+  "lname" : "jakubowski",
+  "email" : "waldo.cole@hotmail.com"
+}
+2026-05-03 22:06:21 [main] INFO  [Thread-3] Creating a new  user
+2026-05-03 22:06:24 [main] INFO  [Thread-3] {
+    "id": 607,
+    "fname": "rodrigo",
+    "lname": "jakubowski",
+    "email": "waldo.cole@hotmail.com"
+}
+2026-05-03 22:06:25 [main] INFO  [Thread-3] Updating an existing user
+2026-05-03 22:06:25 [main] INFO  [Thread-3] {
+    "firstname": "Vijay",
+    "lastname": "Gedala",
+    "email": "VijayGedala@Gmail.com",
+    "id": "607"
+}
+2026-05-03 22:06:25 [main] INFO  [Thread-3] Deleting the created user
+2026-05-03 22:13:59 [main] INFO  [Thread-3] The passed Pojo data: {
+  "id" : 499,
+  "fname" : "geoffrey",
+  "lname" : "nicolas",
+  "email" : "kelvin.effertz@gmail.com"
+}
+2026-05-03 22:13:59 [main] INFO  [Thread-3] Creating a new  user
+2026-05-03 22:14:02 [main] INFO  [Thread-3] {
+    "id": 499,
+    "fname": "geoffrey",
+    "lname": "nicolas",
+    "email": "kelvin.effertz@gmail.com"
+}
+2026-05-03 22:14:03 [main] INFO  [Thread-3] Updating an existing user
+2026-05-03 22:14:03 [main] INFO  [Thread-3] {
+    "firstname": "Vijay",
+    "lastname": "Gedala",
+    "email": "VijayGedala@Gmail.com",
+    "id": "499"
+}
+2026-05-03 22:14:03 [main] ERROR [Thread-3] FAIL : java.lang.UnsupportedOperationException: 'equals' is not supported... maybe you intended to call 'isEqualTo'
+2026-05-03 22:14:54 [main] INFO  [Thread-3] The passed Pojo data: {
+  "id" : 403,
+  "fname" : "christian",
+  "lname" : "christiansen",
+  "email" : "jolene.bogan@gmail.com"
+}
+2026-05-03 22:14:54 [main] INFO  [Thread-3] Creating a new  user
+2026-05-03 22:14:56 [main] INFO  [Thread-3] {
+    "id": 403,
+    "fname": "christian",
+    "lname": "christiansen",
+    "email": "jolene.bogan@gmail.com"
+}
+2026-05-03 22:14:57 [main] INFO  [Thread-3] Updating an existing user
+2026-05-03 22:14:57 [main] INFO  [Thread-3] {
+    "firstname": "Vijay",
+    "lastname": "Gedala",
+    "email": "VijayGedala@Gmail.com",
+    "id": "403"
+}
+2026-05-03 22:14:57 [main] ERROR [Thread-3] FAIL : java.lang.AssertionError: 
+expected: "Vijay"
+ but was: null
+2026-05-03 22:17:54 [main] INFO  [Thread-3] The passed Pojo data: {
+  "id" : 852,
+  "firstname" : "malisa",
+  "lastname" : "hegmann",
+  "email" : "laila.wiegand@gmail.com"
+}
+2026-05-03 22:17:54 [main] INFO  [Thread-3] Creating a new  user
+2026-05-03 22:17:56 [main] INFO  [Thread-3] {
+    "id": 852,
+    "firstname": "malisa",
+    "lastname": "hegmann",
+    "email": "laila.wiegand@gmail.com"
+}
+2026-05-03 22:17:57 [main] INFO  [Thread-3] Updating an existing user
+2026-05-03 22:17:57 [main] INFO  [Thread-3] {
+    "firstname": "Vijay",
+    "lastname": "Gedala",
+    "email": "VijayGedala@Gmail.com",
+    "id": "852"
+}
+2026-05-03 22:17:57 [main] ERROR [Thread-3] FAIL : java.lang.AssertionError: 
+expected: "Vijay"
+ but was: "malisa"
+2026-05-03 22:30:53 [main] INFO  [Thread-3] The passed Pojo data: {
+  "id" : 163,
+  "firstname" : "roselle",
+  "lastname" : "ratke",
+  "email" : "karleen.weimann@yahoo.com"
+}
+2026-05-03 22:30:53 [main] INFO  [Thread-3] Creating a new  user
+2026-05-03 22:30:55 [main] INFO  [Thread-3] {
+    "id": 163,
+    "firstname": "roselle",
+    "lastname": "ratke",
+    "email": "karleen.weimann@yahoo.com"
+}
+2026-05-03 22:30:56 [main] INFO  [Thread-3] Updating an existing user
+2026-05-03 22:30:56 [main] INFO  [Thread-3] {
+    "firstname": "Vijay",
+    "lastname": "Gedala",
+    "email": "VijayGedala@Gmail.com",
+    "id": "163"
+}
+2026-05-03 22:30:56 [main] INFO  [Thread-3] Deleting the created user
+2026-05-03 22:30:56 [main] INFO  [Thread-3] Get call
+2026-05-04 11:41:41 [main] INFO  [Thread-3] The passed Pojo data: {
+  "id" : 132,
+  "firstname" : "letisha",
+  "lastname" : "wisoky",
+  "email" : "phillip.schaefer@yahoo.com"
+}
+2026-05-04 11:41:41 [main] INFO  [Thread-3] Creating a new  user
+2026-05-04 11:41:44 [main] INFO  [Thread-3] {
+    "id": 132,
+    "firstname": "letisha",
+    "lastname": "wisoky",
+    "email": "phillip.schaefer@yahoo.com"
+}
+2026-05-04 11:41:45 [main] INFO  [Thread-3] Updating an existing user
+2026-05-04 11:41:45 [main] INFO  [Thread-3] {
+    "firstname": "Vijay",
+    "lastname": "Gedala",
+    "email": "VijayGedala@Gmail.com",
+    "id": "132"
+}
+2026-05-04 11:41:45 [main] INFO  [Thread-3] Deleting the created user
+2026-05-04 11:41:45 [main] INFO  [Thread-3] Validating the created user is not present in the Api after deleting 
+2026-05-04 11:41:45 [main] INFO  [Thread-3] PASS : UserService is passed
+2026-05-04 13:28:05 [main] INFO  [Thread-3] The passed Pojo data: {
+  "id" : 513,
+  "firstname" : "berry",
+  "lastname" : "lebsack",
+  "email" : "renaldo.walter@hotmail.com"
+}
+2026-05-04 13:28:05 [main] INFO  [Thread-3] Creating a new  user
+2026-05-04 13:28:08 [main] INFO  [Thread-3] {
+    "id": 513,
+    "firstname": "berry",
+    "lastname": "lebsack",
+    "email": "renaldo.walter@hotmail.com"
+}
+2026-05-04 13:28:09 [main] INFO  [Thread-3] Updating an existing user
+2026-05-04 13:28:09 [main] INFO  [Thread-3] {
+    "firstname": "Vijay",
+    "lastname": "Gedala",
+    "email": "VijayGedala@Gmail.com",
+    "id": "513"
+}
+2026-05-04 13:28:09 [main] INFO  [Thread-3] Deleting the created user
+2026-05-04 13:28:09 [main] INFO  [Thread-3] Validating the created user is not present in the Api after deleting 
+2026-05-04 13:28:09 [main] INFO  [Thread-3] PASS : UserService is passed
+2026-05-04 13:28:09 [main] ERROR [Thread-3] FAIL : postRequestUsingExternalFile is failed
+2026-05-04 13:28:09 [main] ERROR [Thread-3] FAIL : java.lang.NullPointerException: Cannot invoke "com.gedala.annotations.FrameWorkAnnotation.author()" because the return value of "java.lang.reflect.Method.getAnnotation(java.lang.Class)" is null
+2026-05-04 13:28:09 [main] ERROR [Thread-3] FAIL : postTests is failed
+2026-05-04 13:28:09 [main] ERROR [Thread-3] FAIL : java.lang.NullPointerException: Cannot invoke "com.gedala.annotations.FrameWorkAnnotation.author()" because the return value of "java.lang.reflect.Method.getAnnotation(java.lang.Class)" is null
+2026-05-04 13:28:09 [main] ERROR [Thread-3] FAIL : getEmployeeDetail is failed
+2026-05-04 13:28:09 [main] ERROR [Thread-3] FAIL : java.lang.NullPointerException: Cannot invoke "com.gedala.annotations.FrameWorkAnnotation.author()" because the return value of "java.lang.reflect.Method.getAnnotation(java.lang.Class)" is null
+2026-05-04 13:28:09 [main] ERROR [Thread-3] FAIL : getEmployeeDetails is failed
+2026-05-04 13:28:09 [main] ERROR [Thread-3] FAIL : java.lang.NullPointerException: Cannot invoke "com.gedala.annotations.FrameWorkAnnotation.author()" because the return value of "java.lang.reflect.Method.getAnnotation(java.lang.Class)" is null
+2026-05-04 13:29:20 [main] INFO  [Thread-3] The passed Pojo data: {
+  "id" : 924,
+  "firstname" : "toni",
+  "lastname" : "gorczany",
+  "email" : "jay.waters@gmail.com"
+}
+2026-05-04 13:29:20 [main] INFO  [Thread-3] Creating a new  user
+2026-05-04 13:29:23 [main] INFO  [Thread-3] {
+    "id": 924,
+    "firstname": "toni",
+    "lastname": "gorczany",
+    "email": "jay.waters@gmail.com"
+}
+2026-05-04 13:29:24 [main] INFO  [Thread-3] Updating an existing user
+2026-05-04 13:29:24 [main] INFO  [Thread-3] {
+    "firstname": "Vijay",
+    "lastname": "Gedala",
+    "email": "VijayGedala@Gmail.com",
+    "id": "924"
+}
+2026-05-04 13:29:24 [main] INFO  [Thread-3] Deleting the created user
+2026-05-04 13:29:24 [main] INFO  [Thread-3] Validating the created user is not present in the Api after deleting 
+2026-05-04 13:29:24 [main] INFO  [Thread-3] PASS : UserService is passed
+2026-05-04 13:29:24 [main] INFO  [Thread-3] {
+    "id": "919",
+    "firstname": "christian",
+    "lastname": "carmen",
+    "email": "mariann.haag@gmail.com"
+}
+2026-05-04 13:29:24 [main] INFO  [Thread-3] PASS : postRequestUsingExternalFile is passed
+2026-05-04 13:29:24 [main] INFO  [Thread-3] {
+    "id": 773,
+    "firstname": "vada",
+    "lastname": "herzog",
+    "email": null
+}
+2026-05-04 13:29:24 [main] INFO  [Thread-3] PASS : postTests is passed
+2026-05-04 13:29:24 [main] INFO  [Thread-3] {
+    "id": "3",
+    "firstname": "Anita",
+    "lastname": "Reddy",
+    "email": "anita.reddy@example.com"
+}
+2026-05-04 13:29:24 [main] INFO  [Thread-3] PASS : getEmployeeDetail is passed
+2026-05-04 13:29:24 [main] INFO  [Thread-3] [
+    {
+        "id": "3",
+        "firstname": "Anita",
+        "lastname": "Reddy",
+        "email": "anita.reddy@example.com"
+    },
+    {
+        "id": "123",
+        "firstname": "VIJAY",
+        "lastname": "GEDALA",
+        "email": "abc@gmail.com"
+    },
+    {
+        "id": "315",
+        "firstname": "malcolm",
+        "lastname": "jude",
+        "email": "abcJson@gmail.com"
+    },
+    {
+        "firstname": "Vijay",
+        "lastname": "Gedala",
+        "email": "VijayGedala@Gmail.com",
+        "id": "852"
+    },
+    {
+        "id": "919",
+        "firstname": "christian",
+        "lastname": "carmen",
+        "email": "mariann.haag@gmail.com"
+    },
+    {
+        "id": "773",
+        "firstname": "vada",
+        "lastname": "herzog",
+        "email": null
+    }
+]
+2026-05-04 13:29:24 [main] INFO  [Thread-3] PASS : getEmployeeDetails is passed
+2026-05-04 13:55:51 [main] INFO  [Thread-3] The passed Pojo data: {
+  "id" : 573,
+  "firstname" : "kimberli",
+  "lastname" : "parker",
+  "email" : "patrice.hand@hotmail.com"
+}
+2026-05-04 13:55:51 [main] INFO  [Thread-3] Creating a new  user
+2026-05-04 13:55:53 [main] INFO  [Thread-3] {
+    "id": 573,
+    "firstname": "kimberli",
+    "lastname": "parker",
+    "email": "patrice.hand@hotmail.com"
+}
+2026-05-04 13:55:54 [main] INFO  [Thread-3] Updating an existing user
+2026-05-04 13:55:54 [main] INFO  [Thread-3] {
+    "firstname": "Vijay",
+    "lastname": "Gedala",
+    "email": "VijayGedala@Gmail.com",
+    "id": "573"
+}
+2026-05-04 13:55:54 [main] INFO  [Thread-3] Deleting the created user
+2026-05-04 13:55:54 [main] INFO  [Thread-3] Validating the created user is not present in the Api after deleting 
+2026-05-04 13:55:54 [main] INFO  [Thread-3] PASS : UserService is passed
+2026-05-04 13:55:54 [main] INFO  [Thread-3] {
+    "id": "300",
+    "firstname": "jewell",
+    "lastname": "aurelio",
+    "email": "elton.mitchell@yahoo.com"
+}
+2026-05-04 13:55:54 [main] INFO  [Thread-3] PASS : postRequestUsingExternalFile is passed
+2026-05-04 13:55:54 [main] INFO  [Thread-3] {
+    "id": 968,
+    "firstname": "floyd",
+    "lastname": "gerlach",
+    "email": null
+}
+2026-05-04 13:55:54 [main] INFO  [Thread-3] PASS : postTests is passed
+2026-05-04 13:55:54 [main] INFO  [Thread-3] {
+    "id": "3",
+    "firstname": "Anita",
+    "lastname": "Reddy",
+    "email": "anita.reddy@example.com"
+}
+2026-05-04 13:55:54 [main] INFO  [Thread-3] PASS : getEmployeeDetail is passed
+2026-05-04 13:55:54 [main] INFO  [Thread-3] [
+    {
+        "id": "3",
+        "firstname": "Anita",
+        "lastname": "Reddy",
+        "email": "anita.reddy@example.com"
+    },
+    {
+        "id": "123",
+        "firstname": "VIJAY",
+        "lastname": "GEDALA",
+        "email": "abc@gmail.com"
+    },
+    {
+        "id": "315",
+        "firstname": "malcolm",
+        "lastname": "jude",
+        "email": "abcJson@gmail.com"
+    },
+    {
+        "firstname": "Vijay",
+        "lastname": "Gedala",
+        "email": "VijayGedala@Gmail.com",
+        "id": "852"
+    },
+    {
+        "id": "919",
+        "firstname": "christian",
+        "lastname": "carmen",
+        "email": "mariann.haag@gmail.com"
+    },
+    {
+        "id": "773",
+        "firstname": "vada",
+        "lastname": "herzog",
+        "email": null
+    },
+    {
+        "id": "300",
+        "firstname": "jewell",
+        "lastname": "aurelio",
+        "email": "elton.mitchell@yahoo.com"
+    },
+    {
+        "id": 968,
+        "firstname": "floyd",
+        "lastname": "gerlach",
+        "email": null
+    }
+]
+2026-05-04 13:55:54 [main] ERROR [Thread-3] FAIL : getEmployeeDetails is failed
+2026-05-04 13:55:54 [main] ERROR [Thread-3] FAIL : java.lang.AssertionError: 
+Expecting actual:
+  8
+to be greater than:
+  100
+2026-05-04 13:58:31 [main] INFO  [Thread-3] {
+    "id": "3",
+    "firstname": "Anita",
+    "lastname": "Reddy",
+    "email": "anita.reddy@example.com"
+}
+2026-05-04 13:58:32 [main] INFO  [Thread-3] PASS : getEmployeeDetail is passed
+2026-05-04 13:58:32 [main] INFO  [Thread-3] [
+    {
+        "id": "3",
+        "firstname": "Anita",
+        "lastname": "Reddy",
+        "email": "anita.reddy@example.com"
+    },
+    {
+        "id": "123",
+        "firstname": "VIJAY",
+        "lastname": "GEDALA",
+        "email": "abc@gmail.com"
+    },
+    {
+        "id": "315",
+        "firstname": "malcolm",
+        "lastname": "jude",
+        "email": "abcJson@gmail.com"
+    },
+    {
+        "firstname": "Vijay",
+        "lastname": "Gedala",
+        "email": "VijayGedala@Gmail.com",
+        "id": "852"
+    },
+    {
+        "id": "919",
+        "firstname": "christian",
+        "lastname": "carmen",
+        "email": "mariann.haag@gmail.com"
+    },
+    {
+        "id": "773",
+        "firstname": "vada",
+        "lastname": "herzog",
+        "email": null
+    },
+    {
+        "id": "300",
+        "firstname": "jewell",
+        "lastname": "aurelio",
+        "email": "elton.mitchell@yahoo.com"
+    },
+    {
+        "id": 968,
+        "firstname": "floyd",
+        "lastname": "gerlach",
+        "email": null
+    }
+]
+2026-05-04 13:58:32 [main] ERROR [Thread-3] FAIL : getEmployeeDetails is failed
+2026-05-04 13:58:32 [main] ERROR [Thread-3] FAIL : java.lang.AssertionError: 
+Expecting actual:
+  8
+to be greater than:
+  100
+2026-05-04 13:59:09 [main] INFO  [Thread-3] The passed Pojo data: {
+  "id" : 837,
+  "firstname" : "lupita",
+  "lastname" : "legros",
+  "email" : "cameron.borer@gmail.com"
+}
+2026-05-04 13:59:09 [main] INFO  [Thread-3] Creating a new  user
+2026-05-04 13:59:11 [main] INFO  [Thread-3] {
+    "id": 837,
+    "firstname": "lupita",
+    "lastname": "legros",
+    "email": "cameron.borer@gmail.com"
+}
+2026-05-04 13:59:12 [main] INFO  [Thread-3] Updating an existing user
+2026-05-04 13:59:12 [main] INFO  [Thread-3] {
+    "firstname": "Vijay",
+    "lastname": "Gedala",
+    "email": "VijayGedala@Gmail.com",
+    "id": "837"
+}
+2026-05-04 13:59:12 [main] INFO  [Thread-3] Deleting the created user
+2026-05-04 13:59:12 [main] INFO  [Thread-3] Validating the created user is not present in the Api after deleting 
+2026-05-04 13:59:12 [main] INFO  [Thread-3] PASS : UserService is passed
+2026-05-04 13:59:12 [main] INFO  [Thread-3] {
+    "id": "411",
+    "firstname": "corey",
+    "lastname": "tony",
+    "email": "isidro.toy@yahoo.com"
+}
+2026-05-04 13:59:12 [main] INFO  [Thread-3] PASS : postRequestUsingExternalFile is passed
+2026-05-04 13:59:13 [main] INFO  [Thread-3] {
+    "id": 785,
+    "firstname": "reuben",
+    "lastname": "veum",
+    "email": null
+}
+2026-05-04 13:59:13 [main] INFO  [Thread-3] PASS : postTests is passed
+2026-05-04 13:59:13 [main] INFO  [Thread-3] {
+    "id": "3",
+    "firstname": "Anita",
+    "lastname": "Reddy",
+    "email": "anita.reddy@example.com"
+}
+2026-05-04 13:59:13 [main] INFO  [Thread-3] PASS : getEmployeeDetail is passed
+2026-05-04 13:59:13 [main] INFO  [Thread-3] [
+    {
+        "id": "3",
+        "firstname": "Anita",
+        "lastname": "Reddy",
+        "email": "anita.reddy@example.com"
+    },
+    {
+        "id": "123",
+        "firstname": "VIJAY",
+        "lastname": "GEDALA",
+        "email": "abc@gmail.com"
+    },
+    {
+        "id": "315",
+        "firstname": "malcolm",
+        "lastname": "jude",
+        "email": "abcJson@gmail.com"
+    },
+    {
+        "firstname": "Vijay",
+        "lastname": "Gedala",
+        "email": "VijayGedala@Gmail.com",
+        "id": "852"
+    },
+    {
+        "id": "919",
+        "firstname": "christian",
+        "lastname": "carmen",
+        "email": "mariann.haag@gmail.com"
+    },
+    {
+        "id": "773",
+        "firstname": "vada",
+        "lastname": "herzog",
+        "email": null
+    },
+    {
+        "id": "300",
+        "firstname": "jewell",
+        "lastname": "aurelio",
+        "email": "elton.mitchell@yahoo.com"
+    },
+    {
+        "id": "968",
+        "firstname": "floyd",
+        "lastname": "gerlach",
+        "email": null
+    },
+    {
+        "id": "411",
+        "firstname": "corey",
+        "lastname": "tony",
+        "email": "isidro.toy@yahoo.com"
+    },
+    {
+        "id": "785",
+        "firstname": "reuben",
+        "lastname": "veum",
+        "email": null
+    }
+]
+2026-05-04 13:59:13 [main] ERROR [Thread-3] FAIL : getEmployeeDetails is failed
+2026-05-04 13:59:13 [main] ERROR [Thread-3] FAIL : java.lang.AssertionError: 
+Expecting actual:
+  10
+to be greater than:
+  100
+2026-05-04 14:13:20 [TestNG-test-CRUD Flow-1] INFO  [Thread-32] The passed Pojo data: {
+  "id" : 515,
+  "firstname" : "tomi",
+  "lastname" : "turcotte",
+  "email" : "lula.schimmel@gmail.com"
+}
+2026-05-04 14:13:20 [TestNG-test-CRUD Flow-1] INFO  [Thread-32] Creating a new  user
+2026-05-04 14:13:23 [TestNG-test-CRUD Flow-1] INFO  [Thread-32] {
+    "id": 515,
+    "firstname": "tomi",
+    "lastname": "turcotte",
+    "email": "lula.schimmel@gmail.com"
+}
+2026-05-04 14:13:24 [TestNG-test-CRUD Flow-1] INFO  [Thread-32] Updating an existing user
+2026-05-04 14:13:24 [TestNG-test-CRUD Flow-1] INFO  [Thread-32] {
+    "firstname": "Vijay",
+    "lastname": "Gedala",
+    "email": "VijayGedala@Gmail.com",
+    "id": "515"
+}
+2026-05-04 14:13:24 [TestNG-test-CRUD Flow-1] INFO  [Thread-32] Deleting the created user
+2026-05-04 14:13:24 [TestNG-test-CRUD Flow-1] INFO  [Thread-32] Validating the created user is not present in the Api after deleting 
+2026-05-04 14:13:24 [TestNG-test-CRUD Flow-1] INFO  [Thread-32] PASS : UserService is passed
+2026-05-04 14:13:24 [TestNG-test-Independent Tests-2] INFO  [Thread-56] {
+    "id": "3",
+    "firstname": "Anita",
+    "lastname": "Reddy",
+    "email": "anita.reddy@example.com"
+}
+2026-05-04 14:13:24 [TestNG-test-Independent Tests-2] INFO  [Thread-56] PASS : getEmployeeDetail is passed
+2026-05-04 14:13:24 [TestNG-test-Independent Tests-2] INFO  [Thread-56] [
+    {
+        "id": "3",
+        "firstname": "Anita",
+        "lastname": "Reddy",
+        "email": "anita.reddy@example.com"
+    },
+    {
+        "id": "123",
+        "firstname": "VIJAY",
+        "lastname": "GEDALA",
+        "email": "abc@gmail.com"
+    },
+    {
+        "id": "315",
+        "firstname": "malcolm",
+        "lastname": "jude",
+        "email": "abcJson@gmail.com"
+    },
+    {
+        "firstname": "Vijay",
+        "lastname": "Gedala",
+        "email": "VijayGedala@Gmail.com",
+        "id": "852"
+    },
+    {
+        "id": "919",
+        "firstname": "christian",
+        "lastname": "carmen",
+        "email": "mariann.haag@gmail.com"
+    },
+    {
+        "id": "773",
+        "firstname": "vada",
+        "lastname": "herzog",
+        "email": null
+    },
+    {
+        "id": "300",
+        "firstname": "jewell",
+        "lastname": "aurelio",
+        "email": "elton.mitchell@yahoo.com"
+    },
+    {
+        "id": "968",
+        "firstname": "floyd",
+        "lastname": "gerlach",
+        "email": null
+    },
+    {
+        "id": "411",
+        "firstname": "corey",
+        "lastname": "tony",
+        "email": "isidro.toy@yahoo.com"
+    },
+    {
+        "id": "785",
+        "firstname": "reuben",
+        "lastname": "veum",
+        "email": null
+    },
+    {
+        "id": "309",
+        "firstname": "martin",
+        "lastname": "rodrick",
+        "email": "beverley.becker@hotmail.com"
+    }
+]
+2026-05-04 14:13:24 [TestNG-test-Independent Tests-2] ERROR [Thread-56] FAIL : getEmployeeDetails is failed
+2026-05-04 14:13:24 [TestNG-test-Independent Tests-2] ERROR [Thread-56] FAIL : java.lang.AssertionError: 
+Expecting actual:
+  11
+to be greater than:
+  100
+2026-05-04 14:13:25 [TestNG-test-Independent Tests-1] INFO  [Thread-55] {
+    "id": "309",
+    "firstname": "martin",
+    "lastname": "rodrick",
+    "email": "beverley.becker@hotmail.com"
+}
+2026-05-04 14:13:25 [TestNG-test-Independent Tests-1] INFO  [Thread-55] PASS : postRequestUsingExternalFile is passed
+2026-05-04 14:13:25 [TestNG-test-Independent Tests-1] INFO  [Thread-55] {
+    "id": 814,
+    "firstname": "drew",
+    "lastname": "lockman",
+    "email": null
+}
+2026-05-04 14:13:25 [TestNG-test-Independent Tests-1] INFO  [Thread-55] PASS : postTests is passed
+2026-05-04 14:14:32 [TestNG-test-APi-1] INFO  [Thread-33] The passed Pojo data: {
+  "id" : 498,
+  "firstname" : "hedy",
+  "lastname" : "kessler",
+  "email" : "dudley.wunsch@hotmail.com"
+}
+2026-05-04 14:14:32 [TestNG-test-APi-1] INFO  [Thread-33] Creating a new  user
+2026-05-04 14:14:33 [TestNG-test-APi-3] INFO  [Thread-35] {
+    "id": "3",
+    "firstname": "Anita",
+    "lastname": "Reddy",
+    "email": "anita.reddy@example.com"
+}
+2026-05-04 14:14:33 [TestNG-test-APi-1] INFO  [Thread-33] {
+    "id": 498,
+    "firstname": "hedy",
+    "lastname": "kessler",
+    "email": "dudley.wunsch@hotmail.com"
+}
+2026-05-04 14:14:33 [TestNG-test-APi-2] INFO  [Thread-34] {
+    "id": "162",
+    "firstname": "myong",
+    "lastname": "rolland",
+    "email": "josue.wuckert@gmail.com"
+}
+2026-05-04 14:14:33 [TestNG-test-APi-2] INFO  [Thread-34] PASS : postRequestUsingExternalFile is passed
+2026-05-04 14:14:33 [TestNG-test-APi-2] INFO  [Thread-34] {
+    "id": 769,
+    "firstname": "ivy",
+    "lastname": "medhurst",
+    "email": null
+}
+2026-05-04 14:14:33 [TestNG-test-APi-2] INFO  [Thread-34] PASS : postTests is passed
+2026-05-04 14:14:34 [TestNG-test-APi-1] INFO  [Thread-33] Updating an existing user
+2026-05-04 14:14:34 [TestNG-test-APi-3] INFO  [Thread-35] PASS : getEmployeeDetail is passed
+2026-05-04 14:14:34 [TestNG-test-APi-3] INFO  [Thread-35] [
+    {
+        "id": "3",
+        "firstname": "Anita",
+        "lastname": "Reddy",
+        "email": "anita.reddy@example.com"
+    },
+    {
+        "id": "123",
+        "firstname": "VIJAY",
+        "lastname": "GEDALA",
+        "email": "abc@gmail.com"
+    },
+    {
+        "id": "315",
+        "firstname": "malcolm",
+        "lastname": "jude",
+        "email": "abcJson@gmail.com"
+    },
+    {
+        "firstname": "Vijay",
+        "lastname": "Gedala",
+        "email": "VijayGedala@Gmail.com",
+        "id": "852"
+    },
+    {
+        "id": "919",
+        "firstname": "christian",
+        "lastname": "carmen",
+        "email": "mariann.haag@gmail.com"
+    },
+    {
+        "id": "773",
+        "firstname": "vada",
+        "lastname": "herzog",
+        "email": null
+    },
+    {
+        "id": "300",
+        "firstname": "jewell",
+        "lastname": "aurelio",
+        "email": "elton.mitchell@yahoo.com"
+    },
+    {
+        "id": "968",
+        "firstname": "floyd",
+        "lastname": "gerlach",
+        "email": null
+    },
+    {
+        "id": "411",
+        "firstname": "corey",
+        "lastname": "tony",
+        "email": "isidro.toy@yahoo.com"
+    },
+    {
+        "id": "785",
+        "firstname": "reuben",
+        "lastname": "veum",
+        "email": null
+    },
+    {
+        "id": "309",
+        "firstname": "martin",
+        "lastname": "rodrick",
+        "email": "beverley.becker@hotmail.com"
+    },
+    {
+        "id": "814",
+        "firstname": "drew",
+        "lastname": "lockman",
+        "email": null
+    },
+    {
+        "id": "498",
+        "firstname": "hedy",
+        "lastname": "kessler",
+        "email": "dudley.wunsch@hotmail.com"
+    },
+    {
+        "id": "162",
+        "firstname": "myong",
+        "lastname": "rolland",
+        "email": "josue.wuckert@gmail.com"
+    },
+    {
+        "id": "769",
+        "firstname": "ivy",
+        "lastname": "medhurst",
+        "email": null
+    }
+]
+2026-05-04 14:14:34 [TestNG-test-APi-1] INFO  [Thread-33] {
+    "firstname": "Vijay",
+    "lastname": "Gedala",
+    "email": "VijayGedala@Gmail.com",
+    "id": "498"
+}
+2026-05-04 14:14:34 [TestNG-test-APi-3] ERROR [Thread-35] FAIL : getEmployeeDetails is failed
+2026-05-04 14:14:34 [TestNG-test-APi-3] ERROR [Thread-35] FAIL : java.lang.AssertionError: 
+Expecting actual:
+  15
+to be greater than:
+  100
+2026-05-04 14:14:34 [TestNG-test-APi-1] INFO  [Thread-33] Deleting the created user
+2026-05-04 14:14:34 [TestNG-test-APi-1] INFO  [Thread-33] Validating the created user is not present in the Api after deleting 
+2026-05-04 14:14:34 [TestNG-test-APi-1] INFO  [Thread-33] PASS : UserService is passed
+2026-05-04 14:15:30 [TestNG-test-APi-1] INFO  [Thread-33] The passed Pojo data: {
+  "id" : 836,
+  "firstname" : "rodrick",
+  "lastname" : "rosenbaum",
+  "email" : "carola.koch@hotmail.com"
+}
+2026-05-04 14:15:30 [TestNG-test-APi-1] INFO  [Thread-33] Creating a new  user
+2026-05-04 14:15:31 [TestNG-test-APi-2] INFO  [Thread-34] {
+    "id": "931",
+    "firstname": "winter",
+    "lastname": "ellis",
+    "email": "salome.lemke@hotmail.com"
+}
+2026-05-04 14:15:31 [TestNG-test-APi-1] INFO  [Thread-33] {
+    "id": 836,
+    "firstname": "rodrick",
+    "lastname": "rosenbaum",
+    "email": "carola.koch@hotmail.com"
+}
+2026-05-04 14:15:31 [TestNG-test-APi-3] INFO  [Thread-35] {
+    "id": "3",
+    "firstname": "Anita",
+    "lastname": "Reddy",
+    "email": "anita.reddy@example.com"
+}
+2026-05-04 14:15:31 [TestNG-test-APi-2] INFO  [Thread-34] PASS : postRequestUsingExternalFile is passed
+2026-05-04 14:15:31 [TestNG-test-APi-2] INFO  [Thread-34] {
+    "id": 237,
+    "firstname": "doreen",
+    "lastname": "ebert",
+    "email": null
+}
+2026-05-04 14:15:31 [TestNG-test-APi-2] INFO  [Thread-34] PASS : postTests is passed
+2026-05-04 14:15:32 [TestNG-test-APi-1] INFO  [Thread-33] Updating an existing user
+2026-05-04 14:15:32 [TestNG-test-APi-3] INFO  [Thread-35] PASS : getEmployeeDetail is passed
+2026-05-04 14:15:32 [TestNG-test-APi-3] INFO  [Thread-35] [
+    {
+        "id": "3",
+        "firstname": "Anita",
+        "lastname": "Reddy",
+        "email": "anita.reddy@example.com"
+    },
+    {
+        "id": "123",
+        "firstname": "VIJAY",
+        "lastname": "GEDALA",
+        "email": "abc@gmail.com"
+    },
+    {
+        "id": "315",
+        "firstname": "malcolm",
+        "lastname": "jude",
+        "email": "abcJson@gmail.com"
+    },
+    {
+        "firstname": "Vijay",
+        "lastname": "Gedala",
+        "email": "VijayGedala@Gmail.com",
+        "id": "852"
+    },
+    {
+        "id": "919",
+        "firstname": "christian",
+        "lastname": "carmen",
+        "email": "mariann.haag@gmail.com"
+    },
+    {
+        "id": "773",
+        "firstname": "vada",
+        "lastname": "herzog",
+        "email": null
+    },
+    {
+        "id": "300",
+        "firstname": "jewell",
+        "lastname": "aurelio",
+        "email": "elton.mitchell@yahoo.com"
+    },
+    {
+        "id": "968",
+        "firstname": "floyd",
+        "lastname": "gerlach",
+        "email": null
+    },
+    {
+        "id": "411",
+        "firstname": "corey",
+        "lastname": "tony",
+        "email": "isidro.toy@yahoo.com"
+    },
+    {
+        "id": "785",
+        "firstname": "reuben",
+        "lastname": "veum",
+        "email": null
+    },
+    {
+        "id": "309",
+        "firstname": "martin",
+        "lastname": "rodrick",
+        "email": "beverley.becker@hotmail.com"
+    },
+    {
+        "id": "814",
+        "firstname": "drew",
+        "lastname": "lockman",
+        "email": null
+    },
+    {
+        "id": "162",
+        "firstname": "myong",
+        "lastname": "rolland",
+        "email": "josue.wuckert@gmail.com"
+    },
+    {
+        "id": "769",
+        "firstname": "ivy",
+        "lastname": "medhurst",
+        "email": null
+    },
+    {
+        "id": "836",
+        "firstname": "rodrick",
+        "lastname": "rosenbaum",
+        "email": "carola.koch@hotmail.com"
+    },
+    {
+        "id": "931",
+        "firstname": "winter",
+        "lastname": "ellis",
+        "email": "salome.lemke@hotmail.com"
+    },
+    {
+        "id": "237",
+        "firstname": "doreen",
+        "lastname": "ebert",
+        "email": null
+    }
+]
+2026-05-04 14:15:32 [TestNG-test-APi-1] INFO  [Thread-33] {
+    "firstname": "Vijay",
+    "lastname": "Gedala",
+    "email": "VijayGedala@Gmail.com",
+    "id": "836"
+}
+2026-05-04 14:15:32 [TestNG-test-APi-3] ERROR [Thread-35] FAIL : getEmployeeDetails is failed
+2026-05-04 14:15:32 [TestNG-test-APi-3] ERROR [Thread-35] FAIL : java.lang.AssertionError: 
+Expecting actual:
+  17
+to be greater than:
+  100
+2026-05-04 14:15:32 [TestNG-test-APi-1] INFO  [Thread-33] Deleting the created user
+2026-05-04 14:15:32 [TestNG-test-APi-1] INFO  [Thread-33] Validating the created user is not present in the Api after deleting 
+2026-05-04 14:15:32 [TestNG-test-APi-1] INFO  [Thread-33] PASS : UserService is passed
+2026-05-04 14:47:37 [TestNG-test-APi-1] INFO  [Thread-32] The passed Pojo data: {
+  "id" : 735,
+  "firstname" : "eileen",
+  "lastname" : "bogisich",
+  "email" : "jeremy.erdman@gmail.com"
+}
+2026-05-04 14:47:37 [TestNG-test-APi-1] INFO  [Thread-32] Creating a new  user
+2026-05-04 14:47:38 [TestNG-test-APi-1] INFO  [Thread-32] {
+    "id": 735,
+    "firstname": "eileen",
+    "lastname": "bogisich",
+    "email": "jeremy.erdman@gmail.com"
+}
+2026-05-04 14:47:38 [TestNG-test-APi-3] INFO  [Thread-34] {
+    "id": "3",
+    "firstname": "Anita",
+    "lastname": "Reddy",
+    "email": "anita.reddy@example.com"
+}
+2026-05-04 14:47:38 [TestNG-test-APi-2] INFO  [Thread-33] {
+    "id": "445",
+    "firstname": "mikaela",
+    "lastname": "fidela",
+    "email": "pasquale.wisoky@gmail.com"
+}
+2026-05-04 14:47:38 [TestNG-test-APi-2] INFO  [Thread-33] PASS : postRequestUsingExternalFile is passed
+2026-05-04 14:47:38 [TestNG-test-APi-2] INFO  [Thread-33] {
+    "id": 586,
+    "firstname": "hilton",
+    "lastname": "mohr",
+    "email": null
+}
+2026-05-04 14:47:38 [TestNG-test-APi-2] INFO  [Thread-33] PASS : postTests is passed
+2026-05-04 14:47:39 [TestNG-test-APi-1] INFO  [Thread-32] Updating an existing user
+2026-05-04 14:47:39 [TestNG-test-APi-3] INFO  [Thread-34] PASS : getEmployeeDetail is passed
+2026-05-04 14:47:39 [TestNG-test-APi-3] INFO  [Thread-34] [
+    {
+        "id": "3",
+        "firstname": "Anita",
+        "lastname": "Reddy",
+        "email": "anita.reddy@example.com"
+    },
+    {
+        "id": "123",
+        "firstname": "VIJAY",
+        "lastname": "GEDALA",
+        "email": "abc@gmail.com"
+    },
+    {
+        "id": "315",
+        "firstname": "malcolm",
+        "lastname": "jude",
+        "email": "abcJson@gmail.com"
+    },
+    {
+        "firstname": "Vijay",
+        "lastname": "Gedala",
+        "email": "VijayGedala@Gmail.com",
+        "id": "852"
+    },
+    {
+        "id": "919",
+        "firstname": "christian",
+        "lastname": "carmen",
+        "email": "mariann.haag@gmail.com"
+    },
+    {
+        "id": "773",
+        "firstname": "vada",
+        "lastname": "herzog",
+        "email": null
+    },
+    {
+        "id": "300",
+        "firstname": "jewell",
+        "lastname": "aurelio",
+        "email": "elton.mitchell@yahoo.com"
+    },
+    {
+        "id": "968",
+        "firstname": "floyd",
+        "lastname": "gerlach",
+        "email": null
+    },
+    {
+        "id": "411",
+        "firstname": "corey",
+        "lastname": "tony",
+        "email": "isidro.toy@yahoo.com"
+    },
+    {
+        "id": "785",
+        "firstname": "reuben",
+        "lastname": "veum",
+        "email": null
+    },
+    {
+        "id": "309",
+        "firstname": "martin",
+        "lastname": "rodrick",
+        "email": "beverley.becker@hotmail.com"
+    },
+    {
+        "id": "814",
+        "firstname": "drew",
+        "lastname": "lockman",
+        "email": null
+    },
+    {
+        "id": "162",
+        "firstname": "myong",
+        "lastname": "rolland",
+        "email": "josue.wuckert@gmail.com"
+    },
+    {
+        "id": "769",
+        "firstname": "ivy",
+        "lastname": "medhurst",
+        "email": null
+    },
+    {
+        "id": "931",
+        "firstname": "winter",
+        "lastname": "ellis",
+        "email": "salome.lemke@hotmail.com"
+    },
+    {
+        "id": "237",
+        "firstname": "doreen",
+        "lastname": "ebert",
+        "email": null
+    },
+    {
+        "id": "445",
+        "firstname": "mikaela",
+        "lastname": "fidela",
+        "email": "pasquale.wisoky@gmail.com"
+    },
+    {
+        "id": "735",
+        "firstname": "eileen",
+        "lastname": "bogisich",
+        "email": "jeremy.erdman@gmail.com"
+    },
+    {
+        "id": "586",
+        "firstname": "hilton",
+        "lastname": "mohr",
+        "email": null
+    }
+]
+2026-05-04 14:47:39 [TestNG-test-APi-1] INFO  [Thread-32] {
+    "id": "735",
+    "firstname": "taylor",
+    "lastname": "smitham",
+    "email": "tyree.schaefer@yahoo.com"
+}
+2026-05-04 14:47:39 [TestNG-test-APi-3] ERROR [Thread-34] FAIL : getEmployeeDetails is failed
+2026-05-04 14:47:39 [TestNG-test-APi-3] ERROR [Thread-34] FAIL : java.lang.AssertionError: 
+Expecting actual:
+  19
+to be greater than:
+  100
+2026-05-04 14:47:39 [TestNG-test-APi-1] INFO  [Thread-32] Deleting the created user
+2026-05-04 14:47:39 [TestNG-test-APi-1] INFO  [Thread-32] Validating the created user is not present in the Api after deleting 
+2026-05-04 14:47:39 [TestNG-test-APi-1] INFO  [Thread-32] PASS : UserService is passed
+2026-05-04 19:36:32 [main] INFO  [Thread-3] The passed Pojo data: {
+  "id" : 410,
+  "firstname" : "kaylene",
+  "lastname" : "mayert",
+  "email" : "jesus.pollich@hotmail.com"
+}
+2026-05-04 19:36:32 [main] INFO  [Thread-3] Creating a new  user
+2026-05-04 19:36:35 [main] INFO  [Thread-3] {
+    "id": 410,
+    "firstname": "kaylene",
+    "lastname": "mayert",
+    "email": "jesus.pollich@hotmail.com"
+}
+2026-05-04 19:36:37 [main] INFO  [Thread-3] Updating an existing user
+2026-05-04 19:36:37 [main] INFO  [Thread-3] {
+    "id": "410",
+    "firstname": "may",
+    "lastname": "marks",
+    "email": "sharika.boyer@yahoo.com"
+}
+2026-05-04 19:36:37 [main] INFO  [Thread-3] Deleting the created user
+2026-05-04 19:36:37 [main] INFO  [Thread-3] Validating the created user is not present in the Api after deleting 
+2026-05-04 19:36:37 [main] INFO  [Thread-3] PASS : UserService is passed
+2026-05-04 19:36:37 [main] INFO  [Thread-3] {
+    "id": "801",
+    "firstname": "jose",
+    "lastname": "starr",
+    "email": "edda.hartmann@yahoo.com"
+}
+2026-05-04 19:36:37 [main] INFO  [Thread-3] PASS : postRequestUsingExternalFile is passed
+2026-05-04 19:36:37 [main] INFO  [Thread-3] {
+    "id": 236,
+    "firstname": "yasmin",
+    "lastname": "breitenberg",
+    "email": null
+}
+2026-05-04 19:36:37 [main] INFO  [Thread-3] PASS : postTests is passed
+2026-05-04 19:36:38 [main] INFO  [Thread-3] {
+    "id": "3",
+    "firstname": "Anita",
+    "lastname": "Reddy",
+    "email": "anita.reddy@example.com"
+}
+2026-05-04 19:36:38 [main] INFO  [Thread-3] PASS : getEmployeeDetail is passed
+2026-05-04 19:36:38 [main] INFO  [Thread-3] [
+    {
+        "id": "3",
+        "firstname": "Anita",
+        "lastname": "Reddy",
+        "email": "anita.reddy@example.com"
+    },
+    {
+        "id": "123",
+        "firstname": "VIJAY",
+        "lastname": "GEDALA",
+        "email": "abc@gmail.com"
+    },
+    {
+        "id": "315",
+        "firstname": "malcolm",
+        "lastname": "jude",
+        "email": "abcJson@gmail.com"
+    },
+    {
+        "firstname": "Vijay",
+        "lastname": "Gedala",
+        "email": "VijayGedala@Gmail.com",
+        "id": "852"
+    },
+    {
+        "id": "919",
+        "firstname": "christian",
+        "lastname": "carmen",
+        "email": "mariann.haag@gmail.com"
+    },
+    {
+        "id": "773",
+        "firstname": "vada",
+        "lastname": "herzog",
+        "email": null
+    },
+    {
+        "id": "300",
+        "firstname": "jewell",
+        "lastname": "aurelio",
+        "email": "elton.mitchell@yahoo.com"
+    },
+    {
+        "id": "968",
+        "firstname": "floyd",
+        "lastname": "gerlach",
+        "email": null
+    },
+    {
+        "id": "411",
+        "firstname": "corey",
+        "lastname": "tony",
+        "email": "isidro.toy@yahoo.com"
+    },
+    {
+        "id": "785",
+        "firstname": "reuben",
+        "lastname": "veum",
+        "email": null
+    },
+    {
+        "id": "309",
+        "firstname": "martin",
+        "lastname": "rodrick",
+        "email": "beverley.becker@hotmail.com"
+    },
+    {
+        "id": "814",
+        "firstname": "drew",
+        "lastname": "lockman",
+        "email": null
+    },
+    {
+        "id": "162",
+        "firstname": "myong",
+        "lastname": "rolland",
+        "email": "josue.wuckert@gmail.com"
+    },
+    {
+        "id": "769",
+        "firstname": "ivy",
+        "lastname": "medhurst",
+        "email": null
+    },
+    {
+        "id": "931",
+        "firstname": "winter",
+        "lastname": "ellis",
+        "email": "salome.lemke@hotmail.com"
+    },
+    {
+        "id": "237",
+        "firstname": "doreen",
+        "lastname": "ebert",
+        "email": null
+    },
+    {
+        "id": "445",
+        "firstname": "mikaela",
+        "lastname": "fidela",
+        "email": "pasquale.wisoky@gmail.com"
+    },
+    {
+        "id": "586",
+        "firstname": "hilton",
+        "lastname": "mohr",
+        "email": null
+    },
+    {
+        "id": "801",
+        "firstname": "jose",
+        "lastname": "starr",
+        "email": "edda.hartmann@yahoo.com"
+    },
+    {
+        "id": "236",
+        "firstname": "yasmin",
+        "lastname": "breitenberg",
+        "email": null
+    }
+]
+2026-05-04 19:36:38 [main] ERROR [Thread-3] FAIL : getEmployeeDetails is failed
+2026-05-04 19:36:38 [main] ERROR [Thread-3] FAIL : java.lang.AssertionError: 
+Expecting actual:
+  20
+to be greater than:
+  100
+2026-05-04 19:46:41 [main] INFO  [Thread-3] The passed Pojo data: {
+  "id" : 628,
+  "firstname" : "ty",
+  "lastname" : "champlin",
+  "email" : "portia.ritchie@hotmail.com"
+}
+2026-05-04 19:46:41 [main] INFO  [Thread-3] Creating a new  user
+2026-05-04 19:46:43 [main] INFO  [Thread-3] {
+    "id": 628,
+    "firstname": "ty",
+    "lastname": "champlin",
+    "email": "portia.ritchie@hotmail.com"
+}
+2026-05-04 19:46:44 [main] INFO  [Thread-3] Updating an existing user
+2026-05-04 19:46:44 [main] INFO  [Thread-3] {
+    "id": "628",
+    "firstname": "bradford",
+    "lastname": "johnson",
+    "email": "beaulah.quigley@gmail.com"
+}
+2026-05-04 19:46:44 [main] INFO  [Thread-3] Deleting the created user
+2026-05-04 19:46:45 [main] INFO  [Thread-3] Validating the created user is not present in the Api after deleting 
+2026-05-04 19:46:45 [main] INFO  [Thread-3] PASS : UserService is passed
+2026-05-04 19:46:45 [main] INFO  [Thread-3] {
+    "id": "988",
+    "firstname": "chong",
+    "lastname": "mickey",
+    "email": "cherelle.mills@gmail.com"
+}
+2026-05-04 19:46:45 [main] INFO  [Thread-3] PASS : postRequestUsingExternalFile is passed
+2026-05-04 19:46:45 [main] INFO  [Thread-3] {
+    "id": 177,
+    "firstname": "tracey",
+    "lastname": "carter",
+    "email": null
+}
+2026-05-04 19:46:45 [main] INFO  [Thread-3] PASS : postTests is passed
+2026-05-04 19:46:45 [main] INFO  [Thread-3] {
+    "id": "3",
+    "firstname": "Anita",
+    "lastname": "Reddy",
+    "email": "anita.reddy@example.com"
+}
+2026-05-04 19:46:45 [main] INFO  [Thread-3] PASS : getEmployeeDetail is passed
+2026-05-04 19:46:45 [main] INFO  [Thread-3] [
+    {
+        "id": "3",
+        "firstname": "Anita",
+        "lastname": "Reddy",
+        "email": "anita.reddy@example.com"
+    },
+    {
+        "id": "123",
+        "firstname": "VIJAY",
+        "lastname": "GEDALA",
+        "email": "abc@gmail.com"
+    },
+    {
+        "id": "315",
+        "firstname": "malcolm",
+        "lastname": "jude",
+        "email": "abcJson@gmail.com"
+    },
+    {
+        "firstname": "Vijay",
+        "lastname": "Gedala",
+        "email": "VijayGedala@Gmail.com",
+        "id": "852"
+    },
+    {
+        "id": "919",
+        "firstname": "christian",
+        "lastname": "carmen",
+        "email": "mariann.haag@gmail.com"
+    },
+    {
+        "id": "773",
+        "firstname": "vada",
+        "lastname": "herzog",
+        "email": null
+    },
+    {
+        "id": "300",
+        "firstname": "jewell",
+        "lastname": "aurelio",
+        "email": "elton.mitchell@yahoo.com"
+    },
+    {
+        "id": "968",
+        "firstname": "floyd",
+        "lastname": "gerlach",
+        "email": null
+    },
+    {
+        "id": "411",
+        "firstname": "corey",
+        "lastname": "tony",
+        "email": "isidro.toy@yahoo.com"
+    },
+    {
+        "id": "785",
+        "firstname": "reuben",
+        "lastname": "veum",
+        "email": null
+    },
+    {
+        "id": "309",
+        "firstname": "martin",
+        "lastname": "rodrick",
+        "email": "beverley.becker@hotmail.com"
+    },
+    {
+        "id": "814",
+        "firstname": "drew",
+        "lastname": "lockman",
+        "email": null
+    },
+    {
+        "id": "162",
+        "firstname": "myong",
+        "lastname": "rolland",
+        "email": "josue.wuckert@gmail.com"
+    },
+    {
+        "id": "769",
+        "firstname": "ivy",
+        "lastname": "medhurst",
+        "email": null
+    },
+    {
+        "id": "931",
+        "firstname": "winter",
+        "lastname": "ellis",
+        "email": "salome.lemke@hotmail.com"
+    },
+    {
+        "id": "237",
+        "firstname": "doreen",
+        "lastname": "ebert",
+        "email": null
+    },
+    {
+        "id": "445",
+        "firstname": "mikaela",
+        "lastname": "fidela",
+        "email": "pasquale.wisoky@gmail.com"
+    },
+    {
+        "id": "586",
+        "firstname": "hilton",
+        "lastname": "mohr",
+        "email": null
+    },
+    {
+        "id": "801",
+        "firstname": "jose",
+        "lastname": "starr",
+        "email": "edda.hartmann@yahoo.com"
+    },
+    {
+        "id": "236",
+        "firstname": "yasmin",
+        "lastname": "breitenberg",
+        "email": null
+    },
+    {
+        "id": "988",
+        "firstname": "chong",
+        "lastname": "mickey",
+        "email": "cherelle.mills@gmail.com"
+    },
+    {
+        "id": "177",
+        "firstname": "tracey",
+        "lastname": "carter",
+        "email": null
+    }
+]
+2026-05-04 19:46:45 [main] ERROR [Thread-3] FAIL : getEmployeeDetails is failed
+2026-05-04 19:46:45 [main] ERROR [Thread-3] FAIL : java.lang.AssertionError: 
+Expecting actual:
+  22
+to be greater than:
+  100
+2026-05-04 20:04:47 [main] INFO  [Thread-3] The passed Pojo data: {
+  "id" : 652,
+  "firstname" : "rupert",
+  "lastname" : "harvey",
+  "email" : "hang.kohler@yahoo.com"
+}
+2026-05-04 20:04:47 [main] INFO  [Thread-3] Creating a new  user
+2026-05-04 20:04:50 [main] INFO  [Thread-3] {
+    "id": 652,
+    "firstname": "rupert",
+    "lastname": "harvey",
+    "email": "hang.kohler@yahoo.com"
+}
+2026-05-04 20:04:51 [main] INFO  [Thread-3] Updating an existing user
+2026-05-04 20:04:51 [main] INFO  [Thread-3] {
+    "id": "652",
+    "firstname": "kayla",
+    "lastname": "collier",
+    "email": "loralee.ankunding@hotmail.com"
+}
+2026-05-04 20:04:51 [main] INFO  [Thread-3] Deleting the created user
+2026-05-04 20:04:51 [main] INFO  [Thread-3] Validating the created user is not present in the Api after deleting 
+2026-05-04 20:04:51 [main] INFO  [Thread-3] PASS : UserService is passed
+2026-05-04 20:04:51 [main] INFO  [Thread-3] {
+    "id": "721",
+    "firstname": "britt",
+    "lastname": "gregory",
+    "email": "sal.schuppe@gmail.com"
+}
+2026-05-04 20:04:51 [main] INFO  [Thread-3] PASS : postRequestUsingExternalFile is passed
+2026-05-04 20:04:51 [main] INFO  [Thread-3] {
+    "id": 293,
+    "firstname": "tatum",
+    "lastname": "heaney",
+    "email": null
+}
+2026-05-04 20:04:51 [main] INFO  [Thread-3] PASS : postTests is passed
+2026-05-04 20:04:51 [main] INFO  [Thread-3] {
+    "id": "3",
+    "firstname": "Anita",
+    "lastname": "Reddy",
+    "email": "anita.reddy@example.com"
+}
+2026-05-04 20:04:51 [main] INFO  [Thread-3] PASS : getEmployeeDetail is passed
+2026-05-04 20:04:51 [main] INFO  [Thread-3] [
+    {
+        "id": "3",
+        "firstname": "Anita",
+        "lastname": "Reddy",
+        "email": "anita.reddy@example.com"
+    },
+    {
+        "id": "123",
+        "firstname": "VIJAY",
+        "lastname": "GEDALA",
+        "email": "abc@gmail.com"
+    },
+    {
+        "id": "315",
+        "firstname": "malcolm",
+        "lastname": "jude",
+        "email": "abcJson@gmail.com"
+    },
+    {
+        "firstname": "Vijay",
+        "lastname": "Gedala",
+        "email": "VijayGedala@Gmail.com",
+        "id": "852"
+    },
+    {
+        "id": "919",
+        "firstname": "christian",
+        "lastname": "carmen",
+        "email": "mariann.haag@gmail.com"
+    },
+    {
+        "id": "773",
+        "firstname": "vada",
+        "lastname": "herzog",
+        "email": null
+    },
+    {
+        "id": "300",
+        "firstname": "jewell",
+        "lastname": "aurelio",
+        "email": "elton.mitchell@yahoo.com"
+    },
+    {
+        "id": "968",
+        "firstname": "floyd",
+        "lastname": "gerlach",
+        "email": null
+    },
+    {
+        "id": "411",
+        "firstname": "corey",
+        "lastname": "tony",
+        "email": "isidro.toy@yahoo.com"
+    },
+    {
+        "id": "785",
+        "firstname": "reuben",
+        "lastname": "veum",
+        "email": null
+    },
+    {
+        "id": "309",
+        "firstname": "martin",
+        "lastname": "rodrick",
+        "email": "beverley.becker@hotmail.com"
+    },
+    {
+        "id": "814",
+        "firstname": "drew",
+        "lastname": "lockman",
+        "email": null
+    },
+    {
+        "id": "162",
+        "firstname": "myong",
+        "lastname": "rolland",
+        "email": "josue.wuckert@gmail.com"
+    },
+    {
+        "id": "769",
+        "firstname": "ivy",
+        "lastname": "medhurst",
+        "email": null
+    },
+    {
+        "id": "931",
+        "firstname": "winter",
+        "lastname": "ellis",
+        "email": "salome.lemke@hotmail.com"
+    },
+    {
+        "id": "237",
+        "firstname": "doreen",
+        "lastname": "ebert",
+        "email": null
+    },
+    {
+        "id": "445",
+        "firstname": "mikaela",
+        "lastname": "fidela",
+        "email": "pasquale.wisoky@gmail.com"
+    },
+    {
+        "id": "586",
+        "firstname": "hilton",
+        "lastname": "mohr",
+        "email": null
+    },
+    {
+        "id": "801",
+        "firstname": "jose",
+        "lastname": "starr",
+        "email": "edda.hartmann@yahoo.com"
+    },
+    {
+        "id": "236",
+        "firstname": "yasmin",
+        "lastname": "breitenberg",
+        "email": null
+    },
+    {
+        "id": "988",
+        "firstname": "chong",
+        "lastname": "mickey",
+        "email": "cherelle.mills@gmail.com"
+    },
+    {
+        "id": "177",
+        "firstname": "tracey",
+        "lastname": "carter",
+        "email": null
+    },
+    {
+        "id": "721",
+        "firstname": "britt",
+        "lastname": "gregory",
+        "email": "sal.schuppe@gmail.com"
+    },
+    {
+        "id": "293",
+        "firstname": "tatum",
+        "lastname": "heaney",
+        "email": null
+    }
+]
+2026-05-04 20:04:51 [main] ERROR [Thread-3] FAIL : getEmployeeDetails is failed
+2026-05-04 20:04:51 [main] ERROR [Thread-3] FAIL : java.lang.AssertionError: 
+Expecting actual:
+  24
+to be greater than:
+  100
+2026-05-04 20:05:39 [main] INFO  [Thread-3] The passed Pojo data: {
+  "id" : 914,
+  "firstname" : "david",
+  "lastname" : "swift",
+  "email" : "emile.king@hotmail.com"
+}
+2026-05-04 20:05:39 [main] INFO  [Thread-3] Creating a new  user
+2026-05-04 20:05:42 [main] INFO  [Thread-3] {
+    "id": 914,
+    "firstname": "david",
+    "lastname": "swift",
+    "email": "emile.king@hotmail.com"
+}
+2026-05-04 20:05:43 [main] INFO  [Thread-3] Updating an existing user
+2026-05-04 20:05:43 [main] INFO  [Thread-3] {
+    "id": "914",
+    "firstname": "kanisha",
+    "lastname": "west",
+    "email": "julienne.pollich@yahoo.com"
+}
+2026-05-04 20:05:43 [main] INFO  [Thread-3] Deleting the created user
+2026-05-04 20:05:43 [main] INFO  [Thread-3] Validating the created user is not present in the Api after deleting 
+2026-05-04 20:05:43 [main] INFO  [Thread-3] PASS : UserService is passed
+2026-05-04 20:05:43 [main] INFO  [Thread-3] {
+    "id": "156",
+    "firstname": "toney",
+    "lastname": "cassi",
+    "email": "marlen.hodkiewicz@yahoo.com"
+}
+2026-05-04 20:05:43 [main] INFO  [Thread-3] PASS : postRequestUsingExternalFile is passed
+2026-05-04 20:05:44 [main] INFO  [Thread-3] {
+    "id": 211,
+    "firstname": "wes",
+    "lastname": "wyman",
+    "email": null
+}
+2026-05-04 20:05:44 [main] INFO  [Thread-3] PASS : postTests is passed
+2026-05-04 20:05:44 [main] INFO  [Thread-3] {
+    "id": "3",
+    "firstname": "Anita",
+    "lastname": "Reddy",
+    "email": "anita.reddy@example.com"
+}
+2026-05-04 20:05:44 [main] INFO  [Thread-3] PASS : getEmployeeDetail is passed
+2026-05-04 20:05:44 [main] INFO  [Thread-3] [
+    {
+        "id": "3",
+        "firstname": "Anita",
+        "lastname": "Reddy",
+        "email": "anita.reddy@example.com"
+    },
+    {
+        "id": "123",
+        "firstname": "VIJAY",
+        "lastname": "GEDALA",
+        "email": "abc@gmail.com"
+    },
+    {
+        "id": "315",
+        "firstname": "malcolm",
+        "lastname": "jude",
+        "email": "abcJson@gmail.com"
+    },
+    {
+        "firstname": "Vijay",
+        "lastname": "Gedala",
+        "email": "VijayGedala@Gmail.com",
+        "id": "852"
+    },
+    {
+        "id": "919",
+        "firstname": "christian",
+        "lastname": "carmen",
+        "email": "mariann.haag@gmail.com"
+    },
+    {
+        "id": "773",
+        "firstname": "vada",
+        "lastname": "herzog",
+        "email": null
+    },
+    {
+        "id": "300",
+        "firstname": "jewell",
+        "lastname": "aurelio",
+        "email": "elton.mitchell@yahoo.com"
+    },
+    {
+        "id": "968",
+        "firstname": "floyd",
+        "lastname": "gerlach",
+        "email": null
+    },
+    {
+        "id": "411",
+        "firstname": "corey",
+        "lastname": "tony",
+        "email": "isidro.toy@yahoo.com"
+    },
+    {
+        "id": "785",
+        "firstname": "reuben",
+        "lastname": "veum",
+        "email": null
+    },
+    {
+        "id": "309",
+        "firstname": "martin",
+        "lastname": "rodrick",
+        "email": "beverley.becker@hotmail.com"
+    },
+    {
+        "id": "814",
+        "firstname": "drew",
+        "lastname": "lockman",
+        "email": null
+    },
+    {
+        "id": "162",
+        "firstname": "myong",
+        "lastname": "rolland",
+        "email": "josue.wuckert@gmail.com"
+    },
+    {
+        "id": "769",
+        "firstname": "ivy",
+        "lastname": "medhurst",
+        "email": null
+    },
+    {
+        "id": "931",
+        "firstname": "winter",
+        "lastname": "ellis",
+        "email": "salome.lemke@hotmail.com"
+    },
+    {
+        "id": "237",
+        "firstname": "doreen",
+        "lastname": "ebert",
+        "email": null
+    },
+    {
+        "id": "445",
+        "firstname": "mikaela",
+        "lastname": "fidela",
+        "email": "pasquale.wisoky@gmail.com"
+    },
+    {
+        "id": "586",
+        "firstname": "hilton",
+        "lastname": "mohr",
+        "email": null
+    },
+    {
+        "id": "801",
+        "firstname": "jose",
+        "lastname": "starr",
+        "email": "edda.hartmann@yahoo.com"
+    },
+    {
+        "id": "236",
+        "firstname": "yasmin",
+        "lastname": "breitenberg",
+        "email": null
+    },
+    {
+        "id": "988",
+        "firstname": "chong",
+        "lastname": "mickey",
+        "email": "cherelle.mills@gmail.com"
+    },
+    {
+        "id": "177",
+        "firstname": "tracey",
+        "lastname": "carter",
+        "email": null
+    },
+    {
+        "id": "721",
+        "firstname": "britt",
+        "lastname": "gregory",
+        "email": "sal.schuppe@gmail.com"
+    },
+    {
+        "id": "293",
+        "firstname": "tatum",
+        "lastname": "heaney",
+        "email": null
+    },
+    {
+        "id": "156",
+        "firstname": "toney",
+        "lastname": "cassi",
+        "email": "marlen.hodkiewicz@yahoo.com"
+    },
+    {
+        "id": 211,
+        "firstname": "wes",
+        "lastname": "wyman",
+        "email": null
+    }
+]
+2026-05-04 20:05:44 [main] ERROR [Thread-3] FAIL : getEmployeeDetails is failed
+2026-05-04 20:05:44 [main] ERROR [Thread-3] FAIL : java.lang.AssertionError: 
+Expecting actual:
+  26
+to be greater than:
+  100
+2026-05-04 20:07:44 [main] INFO  [Thread-3] The passed Pojo data: {
+  "id" : 551,
+  "firstname" : "sparkle",
+  "lastname" : "schoen",
+  "email" : "patrick.ratke@gmail.com"
+}
+2026-05-04 20:07:44 [main] INFO  [Thread-3] Creating a new  user
+2026-05-04 20:07:48 [main] INFO  [Thread-3] {
+    "id": 551,
+    "firstname": "sparkle",
+    "lastname": "schoen",
+    "email": "patrick.ratke@gmail.com"
+}
+2026-05-04 20:07:49 [main] INFO  [Thread-3] Updating an existing user
+2026-05-04 20:07:50 [main] INFO  [Thread-3] {
+    "id": "551",
+    "firstname": "hortense",
+    "lastname": "blanda",
+    "email": "mammie.blanda@gmail.com"
+}
+2026-05-04 20:07:50 [main] INFO  [Thread-3] Deleting the created user
+2026-05-04 20:07:50 [main] INFO  [Thread-3] Validating the created user is not present in the Api after deleting 
+2026-05-04 20:07:50 [main] INFO  [Thread-3] PASS : UserService is passed
+2026-05-04 20:07:50 [main] INFO  [Thread-3] {
+    "id": "376",
+    "firstname": "olive",
+    "lastname": "carmine",
+    "email": "mikel.smitham@yahoo.com"
+}
+2026-05-04 20:07:50 [main] INFO  [Thread-3] PASS : postRequestUsingExternalFile is passed
+2026-05-04 20:07:50 [main] INFO  [Thread-3] {
+    "id": 642,
+    "firstname": "angelo",
+    "lastname": "bednar",
+    "email": null
+}
+2026-05-04 20:07:50 [main] INFO  [Thread-3] PASS : postTests is passed
+2026-05-04 20:07:50 [main] INFO  [Thread-3] {
+    "id": "3",
+    "firstname": "Anita",
+    "lastname": "Reddy",
+    "email": "anita.reddy@example.com"
+}
+2026-05-04 20:07:50 [main] INFO  [Thread-3] PASS : getEmployeeDetail is passed
+2026-05-04 20:07:50 [main] INFO  [Thread-3] [
+    {
+        "id": "3",
+        "firstname": "Anita",
+        "lastname": "Reddy",
+        "email": "anita.reddy@example.com"
+    },
+    {
+        "id": "123",
+        "firstname": "VIJAY",
+        "lastname": "GEDALA",
+        "email": "abc@gmail.com"
+    },
+    {
+        "id": "315",
+        "firstname": "malcolm",
+        "lastname": "jude",
+        "email": "abcJson@gmail.com"
+    },
+    {
+        "firstname": "Vijay",
+        "lastname": "Gedala",
+        "email": "VijayGedala@Gmail.com",
+        "id": "852"
+    },
+    {
+        "id": "919",
+        "firstname": "christian",
+        "lastname": "carmen",
+        "email": "mariann.haag@gmail.com"
+    },
+    {
+        "id": "773",
+        "firstname": "vada",
+        "lastname": "herzog",
+        "email": null
+    },
+    {
+        "id": "300",
+        "firstname": "jewell",
+        "lastname": "aurelio",
+        "email": "elton.mitchell@yahoo.com"
+    },
+    {
+        "id": "968",
+        "firstname": "floyd",
+        "lastname": "gerlach",
+        "email": null
+    },
+    {
+        "id": "411",
+        "firstname": "corey",
+        "lastname": "tony",
+        "email": "isidro.toy@yahoo.com"
+    },
+    {
+        "id": "785",
+        "firstname": "reuben",
+        "lastname": "veum",
+        "email": null
+    },
+    {
+        "id": "309",
+        "firstname": "martin",
+        "lastname": "rodrick",
+        "email": "beverley.becker@hotmail.com"
+    },
+    {
+        "id": "814",
+        "firstname": "drew",
+        "lastname": "lockman",
+        "email": null
+    },
+    {
+        "id": "162",
+        "firstname": "myong",
+        "lastname": "rolland",
+        "email": "josue.wuckert@gmail.com"
+    },
+    {
+        "id": "769",
+        "firstname": "ivy",
+        "lastname": "medhurst",
+        "email": null
+    },
+    {
+        "id": "931",
+        "firstname": "winter",
+        "lastname": "ellis",
+        "email": "salome.lemke@hotmail.com"
+    },
+    {
+        "id": "237",
+        "firstname": "doreen",
+        "lastname": "ebert",
+        "email": null
+    },
+    {
+        "id": "445",
+        "firstname": "mikaela",
+        "lastname": "fidela",
+        "email": "pasquale.wisoky@gmail.com"
+    },
+    {
+        "id": "586",
+        "firstname": "hilton",
+        "lastname": "mohr",
+        "email": null
+    },
+    {
+        "id": "801",
+        "firstname": "jose",
+        "lastname": "starr",
+        "email": "edda.hartmann@yahoo.com"
+    },
+    {
+        "id": "236",
+        "firstname": "yasmin",
+        "lastname": "breitenberg",
+        "email": null
+    },
+    {
+        "id": "988",
+        "firstname": "chong",
+        "lastname": "mickey",
+        "email": "cherelle.mills@gmail.com"
+    },
+    {
+        "id": "177",
+        "firstname": "tracey",
+        "lastname": "carter",
+        "email": null
+    },
+    {
+        "id": "721",
+        "firstname": "britt",
+        "lastname": "gregory",
+        "email": "sal.schuppe@gmail.com"
+    },
+    {
+        "id": "293",
+        "firstname": "tatum",
+        "lastname": "heaney",
+        "email": null
+    },
+    {
+        "id": "156",
+        "firstname": "toney",
+        "lastname": "cassi",
+        "email": "marlen.hodkiewicz@yahoo.com"
+    },
+    {
+        "id": "211",
+        "firstname": "wes",
+        "lastname": "wyman",
+        "email": null
+    },
+    {
+        "id": "376",
+        "firstname": "olive",
+        "lastname": "carmine",
+        "email": "mikel.smitham@yahoo.com"
+    },
+    {
+        "id": "642",
+        "firstname": "angelo",
+        "lastname": "bednar",
+        "email": null
+    }
+]
+2026-05-04 20:07:50 [main] ERROR [Thread-3] FAIL : getEmployeeDetails is failed
+2026-05-04 20:07:50 [main] ERROR [Thread-3] FAIL : java.lang.AssertionError: 
+Expecting actual:
+  28
+to be greater than:
+  100
+2026-05-04 20:25:02 [main] INFO  [Thread-3] The passed Pojo data: {
+  "id" : 957,
+  "firstname" : "reanna",
+  "lastname" : "kub",
+  "email" : "chere.braun@yahoo.com"
+}
+2026-05-04 20:25:02 [main] INFO  [Thread-3] Creating a new  user
+2026-05-04 20:25:04 [main] INFO  [Thread-3] {
+    "id": 957,
+    "firstname": "reanna",
+    "lastname": "kub",
+    "email": "chere.braun@yahoo.com"
+}
+2026-05-04 20:25:05 [main] INFO  [Thread-3] Updating an existing user
+2026-05-04 20:25:05 [main] INFO  [Thread-3] {
+    "id": "957",
+    "firstname": "deann",
+    "lastname": "roob",
+    "email": "kisha.anderson@hotmail.com"
+}
+2026-05-04 20:25:05 [main] INFO  [Thread-3] Deleting the created user
+2026-05-04 20:25:05 [main] INFO  [Thread-3] Validating the created user is not present in the Api after deleting 
+2026-05-04 20:25:05 [main] INFO  [Thread-3] PASS : UserService is passed
+2026-05-04 20:25:06 [main] INFO  [Thread-3] {
+    "id": "118",
+    "firstname": "ines",
+    "lastname": "rolland",
+    "email": "kyoko.nitzsche@gmail.com"
+}
+2026-05-04 20:25:06 [main] INFO  [Thread-3] PASS : postRequestUsingExternalFile is passed
+2026-05-04 20:25:06 [main] INFO  [Thread-3] {
+    "id": 383,
+    "firstname": "fredrick",
+    "lastname": "boehm",
+    "email": null
+}
+2026-05-04 20:25:06 [main] INFO  [Thread-3] PASS : postTests is passed
+2026-05-04 20:25:06 [main] INFO  [Thread-3] {
+    "id": "3",
+    "firstname": "Anita",
+    "lastname": "Reddy",
+    "email": "anita.reddy@example.com"
+}
+2026-05-04 20:25:06 [main] INFO  [Thread-3] PASS : getEmployeeDetail is passed
+2026-05-04 20:25:06 [main] INFO  [Thread-3] [
+    {
+        "id": "3",
+        "firstname": "Anita",
+        "lastname": "Reddy",
+        "email": "anita.reddy@example.com"
+    },
+    {
+        "id": "123",
+        "firstname": "VIJAY",
+        "lastname": "GEDALA",
+        "email": "abc@gmail.com"
+    },
+    {
+        "id": "315",
+        "firstname": "malcolm",
+        "lastname": "jude",
+        "email": "abcJson@gmail.com"
+    },
+    {
+        "firstname": "Vijay",
+        "lastname": "Gedala",
+        "email": "VijayGedala@Gmail.com",
+        "id": "852"
+    },
+    {
+        "id": "919",
+        "firstname": "christian",
+        "lastname": "carmen",
+        "email": "mariann.haag@gmail.com"
+    },
+    {
+        "id": "773",
+        "firstname": "vada",
+        "lastname": "herzog",
+        "email": null
+    },
+    {
+        "id": "300",
+        "firstname": "jewell",
+        "lastname": "aurelio",
+        "email": "elton.mitchell@yahoo.com"
+    },
+    {
+        "id": "968",
+        "firstname": "floyd",
+        "lastname": "gerlach",
+        "email": null
+    },
+    {
+        "id": "411",
+        "firstname": "corey",
+        "lastname": "tony",
+        "email": "isidro.toy@yahoo.com"
+    },
+    {
+        "id": "785",
+        "firstname": "reuben",
+        "lastname": "veum",
+        "email": null
+    },
+    {
+        "id": "309",
+        "firstname": "martin",
+        "lastname": "rodrick",
+        "email": "beverley.becker@hotmail.com"
+    },
+    {
+        "id": "814",
+        "firstname": "drew",
+        "lastname": "lockman",
+        "email": null
+    },
+    {
+        "id": "162",
+        "firstname": "myong",
+        "lastname": "rolland",
+        "email": "josue.wuckert@gmail.com"
+    },
+    {
+        "id": "769",
+        "firstname": "ivy",
+        "lastname": "medhurst",
+        "email": null
+    },
+    {
+        "id": "931",
+        "firstname": "winter",
+        "lastname": "ellis",
+        "email": "salome.lemke@hotmail.com"
+    },
+    {
+        "id": "237",
+        "firstname": "doreen",
+        "lastname": "ebert",
+        "email": null
+    },
+    {
+        "id": "445",
+        "firstname": "mikaela",
+        "lastname": "fidela",
+        "email": "pasquale.wisoky@gmail.com"
+    },
+    {
+        "id": "586",
+        "firstname": "hilton",
+        "lastname": "mohr",
+        "email": null
+    },
+    {
+        "id": "801",
+        "firstname": "jose",
+        "lastname": "starr",
+        "email": "edda.hartmann@yahoo.com"
+    },
+    {
+        "id": "236",
+        "firstname": "yasmin",
+        "lastname": "breitenberg",
+        "email": null
+    },
+    {
+        "id": "988",
+        "firstname": "chong",
+        "lastname": "mickey",
+        "email": "cherelle.mills@gmail.com"
+    },
+    {
+        "id": "177",
+        "firstname": "tracey",
+        "lastname": "carter",
+        "email": null
+    },
+    {
+        "id": "721",
+        "firstname": "britt",
+        "lastname": "gregory",
+        "email": "sal.schuppe@gmail.com"
+    },
+    {
+        "id": "293",
+        "firstname": "tatum",
+        "lastname": "heaney",
+        "email": null
+    },
+    {
+        "id": "156",
+        "firstname": "toney",
+        "lastname": "cassi",
+        "email": "marlen.hodkiewicz@yahoo.com"
+    },
+    {
+        "id": "211",
+        "firstname": "wes",
+        "lastname": "wyman",
+        "email": null
+    },
+    {
+        "id": "376",
+        "firstname": "olive",
+        "lastname": "carmine",
+        "email": "mikel.smitham@yahoo.com"
+    },
+    {
+        "id": "642",
+        "firstname": "angelo",
+        "lastname": "bednar",
+        "email": null
+    },
+    {
+        "id": "118",
+        "firstname": "ines",
+        "lastname": "rolland",
+        "email": "kyoko.nitzsche@gmail.com"
+    },
+    {
+        "id": "383",
+        "firstname": "fredrick",
+        "lastname": "boehm",
+        "email": null
+    }
+]
+2026-05-04 20:25:06 [main] ERROR [Thread-3] FAIL : getEmployeeDetails is failed
+2026-05-04 20:25:06 [main] ERROR [Thread-3] FAIL : java.lang.AssertionError: 
+Expecting actual:
+  30
+to be greater than:
+  100
+2026-05-07 22:45:37 [main] INFO  [Thread-3] The passed Pojo data: {
+  "id" : 771,
+  "firstname" : "john",
+  "lastname" : "hudson",
+  "email" : "dong.morissette@gmail.com"
+}
+2026-05-07 22:45:37 [main] INFO  [Thread-3] Creating a new  user
+2026-05-07 22:45:40 [main] INFO  [Thread-3] {
+    "id": 771,
+    "firstname": "john",
+    "lastname": "hudson",
+    "email": "dong.morissette@gmail.com"
+}
+2026-05-07 22:45:40 [main] INFO  [Thread-3] Updating an existing user
+2026-05-07 22:45:40 [main] INFO  [Thread-3] {
+    "id": "771",
+    "firstname": "alfonso",
+    "lastname": "king",
+    "email": "carroll.sporer@hotmail.com"
+}
+2026-05-07 22:45:41 [main] INFO  [Thread-3] Deleting the created user
+2026-05-07 22:45:41 [main] INFO  [Thread-3] Validating the created user is not present in the Api after deleting 
+2026-05-07 22:45:41 [main] INFO  [Thread-3] PASS : UserService is passed
+2026-05-07 22:45:41 [main] INFO  [Thread-3] {
+    "id": "739",
+    "firstname": "christi",
+    "lastname": "kerri",
+    "email": "louvenia.bednar@hotmail.com"
+}
+2026-05-07 22:45:41 [main] INFO  [Thread-3] PASS : postRequestUsingExternalFile is passed
+2026-05-07 22:45:41 [main] INFO  [Thread-3] {
+    "id": 907,
+    "firstname": "dave",
+    "lastname": "bahringer",
+    "email": null
+}
+2026-05-07 22:45:41 [main] INFO  [Thread-3] PASS : postTests is passed
+2026-05-07 22:45:41 [main] INFO  [Thread-3] {
+    "id": "3",
+    "firstname": "Anita",
+    "lastname": "Reddy",
+    "email": "anita.reddy@example.com"
+}
+2026-05-07 22:45:41 [main] INFO  [Thread-3] PASS : getEmployeeDetail is passed
+2026-05-07 22:45:41 [main] INFO  [Thread-3] [
+    {
+        "id": "3",
+        "firstname": "Anita",
+        "lastname": "Reddy",
+        "email": "anita.reddy@example.com"
+    },
+    {
+        "id": "123",
+        "firstname": "VIJAY",
+        "lastname": "GEDALA",
+        "email": "abc@gmail.com"
+    },
+    {
+        "id": "315",
+        "firstname": "malcolm",
+        "lastname": "jude",
+        "email": "abcJson@gmail.com"
+    },
+    {
+        "firstname": "Vijay",
+        "lastname": "Gedala",
+        "email": "VijayGedala@Gmail.com",
+        "id": "852"
+    },
+    {
+        "id": "919",
+        "firstname": "christian",
+        "lastname": "carmen",
+        "email": "mariann.haag@gmail.com"
+    },
+    {
+        "id": "773",
+        "firstname": "vada",
+        "lastname": "herzog",
+        "email": null
+    },
+    {
+        "id": "300",
+        "firstname": "jewell",
+        "lastname": "aurelio",
+        "email": "elton.mitchell@yahoo.com"
+    },
+    {
+        "id": "968",
+        "firstname": "floyd",
+        "lastname": "gerlach",
+        "email": null
+    },
+    {
+        "id": "411",
+        "firstname": "corey",
+        "lastname": "tony",
+        "email": "isidro.toy@yahoo.com"
+    },
+    {
+        "id": "785",
+        "firstname": "reuben",
+        "lastname": "veum",
+        "email": null
+    },
+    {
+        "id": "309",
+        "firstname": "martin",
+        "lastname": "rodrick",
+        "email": "beverley.becker@hotmail.com"
+    },
+    {
+        "id": "814",
+        "firstname": "drew",
+        "lastname": "lockman",
+        "email": null
+    },
+    {
+        "id": "162",
+        "firstname": "myong",
+        "lastname": "rolland",
+        "email": "josue.wuckert@gmail.com"
+    },
+    {
+        "id": "769",
+        "firstname": "ivy",
+        "lastname": "medhurst",
+        "email": null
+    },
+    {
+        "id": "931",
+        "firstname": "winter",
+        "lastname": "ellis",
+        "email": "salome.lemke@hotmail.com"
+    },
+    {
+        "id": "237",
+        "firstname": "doreen",
+        "lastname": "ebert",
+        "email": null
+    },
+    {
+        "id": "445",
+        "firstname": "mikaela",
+        "lastname": "fidela",
+        "email": "pasquale.wisoky@gmail.com"
+    },
+    {
+        "id": "586",
+        "firstname": "hilton",
+        "lastname": "mohr",
+        "email": null
+    },
+    {
+        "id": "801",
+        "firstname": "jose",
+        "lastname": "starr",
+        "email": "edda.hartmann@yahoo.com"
+    },
+    {
+        "id": "236",
+        "firstname": "yasmin",
+        "lastname": "breitenberg",
+        "email": null
+    },
+    {
+        "id": "988",
+        "firstname": "chong",
+        "lastname": "mickey",
+        "email": "cherelle.mills@gmail.com"
+    },
+    {
+        "id": "177",
+        "firstname": "tracey",
+        "lastname": "carter",
+        "email": null
+    },
+    {
+        "id": "721",
+        "firstname": "britt",
+        "lastname": "gregory",
+        "email": "sal.schuppe@gmail.com"
+    },
+    {
+        "id": "293",
+        "firstname": "tatum",
+        "lastname": "heaney",
+        "email": null
+    },
+    {
+        "id": "156",
+        "firstname": "toney",
+        "lastname": "cassi",
+        "email": "marlen.hodkiewicz@yahoo.com"
+    },
+    {
+        "id": "211",
+        "firstname": "wes",
+        "lastname": "wyman",
+        "email": null
+    },
+    {
+        "id": "376",
+        "firstname": "olive",
+        "lastname": "carmine",
+        "email": "mikel.smitham@yahoo.com"
+    },
+    {
+        "id": "642",
+        "firstname": "angelo",
+        "lastname": "bednar",
+        "email": null
+    },
+    {
+        "id": "118",
+        "firstname": "ines",
+        "lastname": "rolland",
+        "email": "kyoko.nitzsche@gmail.com"
+    },
+    {
+        "id": "383",
+        "firstname": "fredrick",
+        "lastname": "boehm",
+        "email": null
+    },
+    {
+        "id": "739",
+        "firstname": "christi",
+        "lastname": "kerri",
+        "email": "louvenia.bednar@hotmail.com"
+    },
+    {
+        "id": "907",
+        "firstname": "dave",
+        "lastname": "bahringer",
+        "email": null
+    }
+]
+2026-05-07 22:45:41 [main] ERROR [Thread-3] FAIL : getEmployeeDetails is failed
+2026-05-07 22:45:41 [main] ERROR [Thread-3] FAIL : java.lang.AssertionError: 
+Expecting actual:
+  32
+to be greater than:
+  100
+2026-05-07 22:48:54 [main] INFO  [Thread-3] The passed Pojo data: {
+  "id" : 483,
+  "firstname" : "pasquale",
+  "lastname" : "lynch",
+  "email" : "antoine.fadel@yahoo.com"
+}
+2026-05-07 22:48:54 [main] INFO  [Thread-3] Creating a new  user
+2026-05-07 22:48:57 [main] INFO  [Thread-3] {
+    "id": 483,
+    "firstname": "pasquale",
+    "lastname": "lynch",
+    "email": "antoine.fadel@yahoo.com"
+}
+2026-05-07 22:48:58 [main] INFO  [Thread-3] Updating an existing user
+2026-05-07 22:48:58 [main] INFO  [Thread-3] {
+    "id": "483",
+    "firstname": "glenda",
+    "lastname": "rohan",
+    "email": "michael.stracke@hotmail.com"
+}
+2026-05-07 22:48:58 [main] INFO  [Thread-3] Deleting the created user
+2026-05-07 22:48:58 [main] INFO  [Thread-3] Validating the created user is not present in the Api after deleting 
+2026-05-07 22:48:58 [main] INFO  [Thread-3] PASS : UserService is passed
+2026-05-07 22:48:58 [main] INFO  [Thread-3] {
+    "id": "259",
+    "firstname": "mendy",
+    "lastname": "aurelio",
+    "email": "titus.pouros@yahoo.com"
+}
+2026-05-07 22:48:58 [main] INFO  [Thread-3] PASS : postRequestUsingExternalFile is passed
+2026-05-07 22:48:58 [main] INFO  [Thread-3] {
+    "id": 723,
+    "firstname": "kai",
+    "lastname": "schroeder",
+    "email": null
+}
+2026-05-07 22:48:58 [main] INFO  [Thread-3] PASS : postTests is passed
+2026-05-07 22:48:58 [main] INFO  [Thread-3] {
+    "id": "3",
+    "firstname": "Anita",
+    "lastname": "Reddy",
+    "email": "anita.reddy@example.com"
+}
+2026-05-07 22:48:58 [main] INFO  [Thread-3] PASS : getEmployeeDetail is passed
+2026-05-07 22:48:58 [main] INFO  [Thread-3] [
+    {
+        "id": "3",
+        "firstname": "Anita",
+        "lastname": "Reddy",
+        "email": "anita.reddy@example.com"
+    },
+    {
+        "id": "123",
+        "firstname": "VIJAY",
+        "lastname": "GEDALA",
+        "email": "abc@gmail.com"
+    },
+    {
+        "id": "315",
+        "firstname": "malcolm",
+        "lastname": "jude",
+        "email": "abcJson@gmail.com"
+    },
+    {
+        "firstname": "Vijay",
+        "lastname": "Gedala",
+        "email": "VijayGedala@Gmail.com",
+        "id": "852"
+    },
+    {
+        "id": "919",
+        "firstname": "christian",
+        "lastname": "carmen",
+        "email": "mariann.haag@gmail.com"
+    },
+    {
+        "id": "773",
+        "firstname": "vada",
+        "lastname": "herzog",
+        "email": null
+    },
+    {
+        "id": "300",
+        "firstname": "jewell",
+        "lastname": "aurelio",
+        "email": "elton.mitchell@yahoo.com"
+    },
+    {
+        "id": "968",
+        "firstname": "floyd",
+        "lastname": "gerlach",
+        "email": null
+    },
+    {
+        "id": "411",
+        "firstname": "corey",
+        "lastname": "tony",
+        "email": "isidro.toy@yahoo.com"
+    },
+    {
+        "id": "785",
+        "firstname": "reuben",
+        "lastname": "veum",
+        "email": null
+    },
+    {
+        "id": "309",
+        "firstname": "martin",
+        "lastname": "rodrick",
+        "email": "beverley.becker@hotmail.com"
+    },
+    {
+        "id": "814",
+        "firstname": "drew",
+        "lastname": "lockman",
+        "email": null
+    },
+    {
+        "id": "162",
+        "firstname": "myong",
+        "lastname": "rolland",
+        "email": "josue.wuckert@gmail.com"
+    },
+    {
+        "id": "769",
+        "firstname": "ivy",
+        "lastname": "medhurst",
+        "email": null
+    },
+    {
+        "id": "931",
+        "firstname": "winter",
+        "lastname": "ellis",
+        "email": "salome.lemke@hotmail.com"
+    },
+    {
+        "id": "237",
+        "firstname": "doreen",
+        "lastname": "ebert",
+        "email": null
+    },
+    {
+        "id": "445",
+        "firstname": "mikaela",
+        "lastname": "fidela",
+        "email": "pasquale.wisoky@gmail.com"
+    },
+    {
+        "id": "586",
+        "firstname": "hilton",
+        "lastname": "mohr",
+        "email": null
+    },
+    {
+        "id": "801",
+        "firstname": "jose",
+        "lastname": "starr",
+        "email": "edda.hartmann@yahoo.com"
+    },
+    {
+        "id": "236",
+        "firstname": "yasmin",
+        "lastname": "breitenberg",
+        "email": null
+    },
+    {
+        "id": "988",
+        "firstname": "chong",
+        "lastname": "mickey",
+        "email": "cherelle.mills@gmail.com"
+    },
+    {
+        "id": "177",
+        "firstname": "tracey",
+        "lastname": "carter",
+        "email": null
+    },
+    {
+        "id": "721",
+        "firstname": "britt",
+        "lastname": "gregory",
+        "email": "sal.schuppe@gmail.com"
+    },
+    {
+        "id": "293",
+        "firstname": "tatum",
+        "lastname": "heaney",
+        "email": null
+    },
+    {
+        "id": "156",
+        "firstname": "toney",
+        "lastname": "cassi",
+        "email": "marlen.hodkiewicz@yahoo.com"
+    },
+    {
+        "id": "211",
+        "firstname": "wes",
+        "lastname": "wyman",
+        "email": null
+    },
+    {
+        "id": "376",
+        "firstname": "olive",
+        "lastname": "carmine",
+        "email": "mikel.smitham@yahoo.com"
+    },
+    {
+        "id": "642",
+        "firstname": "angelo",
+        "lastname": "bednar",
+        "email": null
+    },
+    {
+        "id": "118",
+        "firstname": "ines",
+        "lastname": "rolland",
+        "email": "kyoko.nitzsche@gmail.com"
+    },
+    {
+        "id": "383",
+        "firstname": "fredrick",
+        "lastname": "boehm",
+        "email": null
+    },
+    {
+        "id": "739",
+        "firstname": "christi",
+        "lastname": "kerri",
+        "email": "louvenia.bednar@hotmail.com"
+    },
+    {
+        "id": "907",
+        "firstname": "dave",
+        "lastname": "bahringer",
+        "email": null
+    },
+    {
+        "id": "259",
+        "firstname": "mendy",
+        "lastname": "aurelio",
+        "email": "titus.pouros@yahoo.com"
+    },
+    {
+        "id": "723",
+        "firstname": "kai",
+        "lastname": "schroeder",
+        "email": null
+    }
+]
+2026-05-07 22:48:58 [main] ERROR [Thread-3] FAIL : getEmployeeDetails is failed
+2026-05-07 22:48:58 [main] ERROR [Thread-3] FAIL : java.lang.AssertionError: 
+Expecting actual:
+  34
+to be greater than:
+  100
+2026-05-07 22:49:16 [main] INFO  [Thread-3] The passed Pojo data: {
+  "id" : 866,
+  "firstname" : "danuta",
+  "lastname" : "reynolds",
+  "email" : "porter.mayer@hotmail.com"
+}
+2026-05-07 22:49:16 [main] INFO  [Thread-3] Creating a new  user
+2026-05-07 22:49:19 [main] INFO  [Thread-3] {
+    "id": 866,
+    "firstname": "danuta",
+    "lastname": "reynolds",
+    "email": "porter.mayer@hotmail.com"
+}
+2026-05-07 22:49:20 [main] INFO  [Thread-3] Updating an existing user
+2026-05-07 22:49:20 [main] INFO  [Thread-3] {
+    "id": "866",
+    "firstname": "warren",
+    "lastname": "homenick",
+    "email": "shantae.conroy@hotmail.com"
+}
+2026-05-07 22:49:20 [main] INFO  [Thread-3] Deleting the created user
+2026-05-07 22:49:20 [main] INFO  [Thread-3] Validating the created user is not present in the Api after deleting 
+2026-05-07 22:49:20 [main] INFO  [Thread-3] PASS : UserService is passed
+2026-05-07 22:49:20 [main] INFO  [Thread-3] {
+    "id": "740",
+    "firstname": "sherlene",
+    "lastname": "faviola",
+    "email": "stacy.daniel@yahoo.com"
+}
+2026-05-07 22:49:20 [main] INFO  [Thread-3] PASS : postRequestUsingExternalFile is passed
+2026-05-07 22:49:20 [main] INFO  [Thread-3] {
+    "id": 143,
+    "firstname": "esperanza",
+    "lastname": "hettinger",
+    "email": null
+}
+2026-05-07 22:49:20 [main] INFO  [Thread-3] PASS : postTests is passed
+2026-05-07 22:49:20 [main] INFO  [Thread-3] {
+    "id": "3",
+    "firstname": "Anita",
+    "lastname": "Reddy",
+    "email": "anita.reddy@example.com"
+}
+2026-05-07 22:49:20 [main] INFO  [Thread-3] PASS : getEmployeeDetail is passed
+2026-05-07 22:49:20 [main] INFO  [Thread-3] [
+    {
+        "id": "3",
+        "firstname": "Anita",
+        "lastname": "Reddy",
+        "email": "anita.reddy@example.com"
+    },
+    {
+        "id": "123",
+        "firstname": "VIJAY",
+        "lastname": "GEDALA",
+        "email": "abc@gmail.com"
+    },
+    {
+        "id": "315",
+        "firstname": "malcolm",
+        "lastname": "jude",
+        "email": "abcJson@gmail.com"
+    },
+    {
+        "firstname": "Vijay",
+        "lastname": "Gedala",
+        "email": "VijayGedala@Gmail.com",
+        "id": "852"
+    },
+    {
+        "id": "919",
+        "firstname": "christian",
+        "lastname": "carmen",
+        "email": "mariann.haag@gmail.com"
+    },
+    {
+        "id": "773",
+        "firstname": "vada",
+        "lastname": "herzog",
+        "email": null
+    },
+    {
+        "id": "300",
+        "firstname": "jewell",
+        "lastname": "aurelio",
+        "email": "elton.mitchell@yahoo.com"
+    },
+    {
+        "id": "968",
+        "firstname": "floyd",
+        "lastname": "gerlach",
+        "email": null
+    },
+    {
+        "id": "411",
+        "firstname": "corey",
+        "lastname": "tony",
+        "email": "isidro.toy@yahoo.com"
+    },
+    {
+        "id": "785",
+        "firstname": "reuben",
+        "lastname": "veum",
+        "email": null
+    },
+    {
+        "id": "309",
+        "firstname": "martin",
+        "lastname": "rodrick",
+        "email": "beverley.becker@hotmail.com"
+    },
+    {
+        "id": "814",
+        "firstname": "drew",
+        "lastname": "lockman",
+        "email": null
+    },
+    {
+        "id": "162",
+        "firstname": "myong",
+        "lastname": "rolland",
+        "email": "josue.wuckert@gmail.com"
+    },
+    {
+        "id": "769",
+        "firstname": "ivy",
+        "lastname": "medhurst",
+        "email": null
+    },
+    {
+        "id": "931",
+        "firstname": "winter",
+        "lastname": "ellis",
+        "email": "salome.lemke@hotmail.com"
+    },
+    {
+        "id": "237",
+        "firstname": "doreen",
+        "lastname": "ebert",
+        "email": null
+    },
+    {
+        "id": "445",
+        "firstname": "mikaela",
+        "lastname": "fidela",
+        "email": "pasquale.wisoky@gmail.com"
+    },
+    {
+        "id": "586",
+        "firstname": "hilton",
+        "lastname": "mohr",
+        "email": null
+    },
+    {
+        "id": "801",
+        "firstname": "jose",
+        "lastname": "starr",
+        "email": "edda.hartmann@yahoo.com"
+    },
+    {
+        "id": "236",
+        "firstname": "yasmin",
+        "lastname": "breitenberg",
+        "email": null
+    },
+    {
+        "id": "988",
+        "firstname": "chong",
+        "lastname": "mickey",
+        "email": "cherelle.mills@gmail.com"
+    },
+    {
+        "id": "177",
+        "firstname": "tracey",
+        "lastname": "carter",
+        "email": null
+    },
+    {
+        "id": "721",
+        "firstname": "britt",
+        "lastname": "gregory",
+        "email": "sal.schuppe@gmail.com"
+    },
+    {
+        "id": "293",
+        "firstname": "tatum",
+        "lastname": "heaney",
+        "email": null
+    },
+    {
+        "id": "156",
+        "firstname": "toney",
+        "lastname": "cassi",
+        "email": "marlen.hodkiewicz@yahoo.com"
+    },
+    {
+        "id": "211",
+        "firstname": "wes",
+        "lastname": "wyman",
+        "email": null
+    },
+    {
+        "id": "376",
+        "firstname": "olive",
+        "lastname": "carmine",
+        "email": "mikel.smitham@yahoo.com"
+    },
+    {
+        "id": "642",
+        "firstname": "angelo",
+        "lastname": "bednar",
+        "email": null
+    },
+    {
+        "id": "118",
+        "firstname": "ines",
+        "lastname": "rolland",
+        "email": "kyoko.nitzsche@gmail.com"
+    },
+    {
+        "id": "383",
+        "firstname": "fredrick",
+        "lastname": "boehm",
+        "email": null
+    },
+    {
+        "id": "739",
+        "firstname": "christi",
+        "lastname": "kerri",
+        "email": "louvenia.bednar@hotmail.com"
+    },
+    {
+        "id": "907",
+        "firstname": "dave",
+        "lastname": "bahringer",
+        "email": null
+    },
+    {
+        "id": "259",
+        "firstname": "mendy",
+        "lastname": "aurelio",
+        "email": "titus.pouros@yahoo.com"
+    },
+    {
+        "id": "723",
+        "firstname": "kai",
+        "lastname": "schroeder",
+        "email": null
+    },
+    {
+        "id": "740",
+        "firstname": "sherlene",
+        "lastname": "faviola",
+        "email": "stacy.daniel@yahoo.com"
+    },
+    {
+        "id": "143",
+        "firstname": "esperanza",
+        "lastname": "hettinger",
+        "email": null
+    }
+]
+2026-05-07 22:49:20 [main] ERROR [Thread-3] FAIL : getEmployeeDetails is failed
+2026-05-07 22:49:20 [main] ERROR [Thread-3] FAIL : java.lang.AssertionError: 
+Expecting actual:
+  36
+to be greater than:
+  100
+2026-05-09 09:16:25 [main] INFO  [Thread-3] The passed Pojo data: {
+  "id" : 312,
+  "firstname" : "elmer",
+  "lastname" : "bartoletti",
+  "email" : "lanell.stoltenberg@yahoo.com"
+}
+2026-05-09 09:16:25 [main] INFO  [Thread-3] Creating a new  user
+2026-05-09 09:16:28 [main] INFO  [Thread-3] {
+    "id": 312,
+    "firstname": "elmer",
+    "lastname": "bartoletti",
+    "email": "lanell.stoltenberg@yahoo.com"
+}
+2026-05-09 09:16:29 [main] INFO  [Thread-3] Updating an existing user
+2026-05-09 09:16:29 [main] INFO  [Thread-3] {
+    "id": "312",
+    "firstname": "betsy",
+    "lastname": "lebsack",
+    "email": "tommie.huels@gmail.com"
+}
+2026-05-09 09:16:29 [main] INFO  [Thread-3] Deleting the created user
+2026-05-09 09:16:29 [main] INFO  [Thread-3] Validating the created user is not present in the Api after deleting 
+2026-05-09 09:16:29 [main] INFO  [Thread-3] PASS : UserService is passed
+2026-05-09 09:16:29 [main] INFO  [Thread-3] {
+    "id": "273",
+    "firstname": "kaylene",
+    "lastname": "lonnie",
+    "email": "julian.schiller@hotmail.com"
+}
+2026-05-09 09:16:29 [main] INFO  [Thread-3] PASS : postRequestUsingExternalFile is passed
+2026-05-09 09:16:29 [main] INFO  [Thread-3] {
+    "id": 365,
+    "firstname": "ramon",
+    "lastname": "hoeger",
+    "email": null
+}
+2026-05-09 09:16:29 [main] INFO  [Thread-3] PASS : postTests is passed
+2026-05-09 09:16:29 [main] INFO  [Thread-3] {
+    "id": "3",
+    "firstname": "Anita",
+    "lastname": "Reddy",
+    "email": "anita.reddy@example.com"
+}
+2026-05-09 09:16:29 [main] INFO  [Thread-3] PASS : getEmployeeDetail is passed
+2026-05-09 09:16:30 [main] INFO  [Thread-3] [
+    {
+        "id": "3",
+        "firstname": "Anita",
+        "lastname": "Reddy",
+        "email": "anita.reddy@example.com"
+    },
+    {
+        "id": "123",
+        "firstname": "VIJAY",
+        "lastname": "GEDALA",
+        "email": "abc@gmail.com"
+    },
+    {
+        "id": "315",
+        "firstname": "malcolm",
+        "lastname": "jude",
+        "email": "abcJson@gmail.com"
+    },
+    {
+        "firstname": "Vijay",
+        "lastname": "Gedala",
+        "email": "VijayGedala@Gmail.com",
+        "id": "852"
+    },
+    {
+        "id": "919",
+        "firstname": "christian",
+        "lastname": "carmen",
+        "email": "mariann.haag@gmail.com"
+    },
+    {
+        "id": "773",
+        "firstname": "vada",
+        "lastname": "herzog",
+        "email": null
+    },
+    {
+        "id": "300",
+        "firstname": "jewell",
+        "lastname": "aurelio",
+        "email": "elton.mitchell@yahoo.com"
+    },
+    {
+        "id": "968",
+        "firstname": "floyd",
+        "lastname": "gerlach",
+        "email": null
+    },
+    {
+        "id": "411",
+        "firstname": "corey",
+        "lastname": "tony",
+        "email": "isidro.toy@yahoo.com"
+    },
+    {
+        "id": "785",
+        "firstname": "reuben",
+        "lastname": "veum",
+        "email": null
+    },
+    {
+        "id": "309",
+        "firstname": "martin",
+        "lastname": "rodrick",
+        "email": "beverley.becker@hotmail.com"
+    },
+    {
+        "id": "814",
+        "firstname": "drew",
+        "lastname": "lockman",
+        "email": null
+    },
+    {
+        "id": "162",
+        "firstname": "myong",
+        "lastname": "rolland",
+        "email": "josue.wuckert@gmail.com"
+    },
+    {
+        "id": "769",
+        "firstname": "ivy",
+        "lastname": "medhurst",
+        "email": null
+    },
+    {
+        "id": "931",
+        "firstname": "winter",
+        "lastname": "ellis",
+        "email": "salome.lemke@hotmail.com"
+    },
+    {
+        "id": "237",
+        "firstname": "doreen",
+        "lastname": "ebert",
+        "email": null
+    },
+    {
+        "id": "445",
+        "firstname": "mikaela",
+        "lastname": "fidela",
+        "email": "pasquale.wisoky@gmail.com"
+    },
+    {
+        "id": "586",
+        "firstname": "hilton",
+        "lastname": "mohr",
+        "email": null
+    },
+    {
+        "id": "801",
+        "firstname": "jose",
+        "lastname": "starr",
+        "email": "edda.hartmann@yahoo.com"
+    },
+    {
+        "id": "236",
+        "firstname": "yasmin",
+        "lastname": "breitenberg",
+        "email": null
+    },
+    {
+        "id": "988",
+        "firstname": "chong",
+        "lastname": "mickey",
+        "email": "cherelle.mills@gmail.com"
+    },
+    {
+        "id": "177",
+        "firstname": "tracey",
+        "lastname": "carter",
+        "email": null
+    },
+    {
+        "id": "721",
+        "firstname": "britt",
+        "lastname": "gregory",
+        "email": "sal.schuppe@gmail.com"
+    },
+    {
+        "id": "293",
+        "firstname": "tatum",
+        "lastname": "heaney",
+        "email": null
+    },
+    {
+        "id": "156",
+        "firstname": "toney",
+        "lastname": "cassi",
+        "email": "marlen.hodkiewicz@yahoo.com"
+    },
+    {
+        "id": "211",
+        "firstname": "wes",
+        "lastname": "wyman",
+        "email": null
+    },
+    {
+        "id": "376",
+        "firstname": "olive",
+        "lastname": "carmine",
+        "email": "mikel.smitham@yahoo.com"
+    },
+    {
+        "id": "642",
+        "firstname": "angelo",
+        "lastname": "bednar",
+        "email": null
+    },
+    {
+        "id": "118",
+        "firstname": "ines",
+        "lastname": "rolland",
+        "email": "kyoko.nitzsche@gmail.com"
+    },
+    {
+        "id": "383",
+        "firstname": "fredrick",
+        "lastname": "boehm",
+        "email": null
+    },
+    {
+        "id": "739",
+        "firstname": "christi",
+        "lastname": "kerri",
+        "email": "louvenia.bednar@hotmail.com"
+    },
+    {
+        "id": "907",
+        "firstname": "dave",
+        "lastname": "bahringer",
+        "email": null
+    },
+    {
+        "id": "259",
+        "firstname": "mendy",
+        "lastname": "aurelio",
+        "email": "titus.pouros@yahoo.com"
+    },
+    {
+        "id": "723",
+        "firstname": "kai",
+        "lastname": "schroeder",
+        "email": null
+    },
+    {
+        "id": "740",
+        "firstname": "sherlene",
+        "lastname": "faviola",
+        "email": "stacy.daniel@yahoo.com"
+    },
+    {
+        "id": "143",
+        "firstname": "esperanza",
+        "lastname": "hettinger",
+        "email": null
+    },
+    {
+        "id": "423",
+        "firstname": "quentin",
+        "lastname": "maryalice",
+        "email": "henry.mann@yahoo.com"
+    },
+    {
+        "id": "114",
+        "firstname": "alaina",
+        "lastname": "heidenreich",
+        "email": null
+    },
+    {
+        "id": "137",
+        "firstname": "glenn",
+        "lastname": "riley",
+        "email": "lyndon.osinski@gmail.com"
+    },
+    {
+        "id": "173",
+        "firstname": "adrienne",
+        "lastname": "kuvalis",
+        "email": null
+    },
+    {
+        "id": "988",
+        "firstname": "reyes",
+        "lastname": "harmony",
+        "email": "isiah.brakus@hotmail.com"
+    },
+    {
+        "id": "576",
+        "firstname": "veda",
+        "lastname": "hauck",
+        "email": null
+    },
+    {
+        "id": "701",
+        "firstname": "jimmie",
+        "lastname": "norbert",
+        "email": "sharika.ledner@gmail.com"
+    },
+    {
+        "id": "578",
+        "firstname": "maria",
+        "lastname": "durgan",
+        "email": null
+    },
+    {
+        "id": "273",
+        "firstname": "kaylene",
+        "lastname": "lonnie",
+        "email": "julian.schiller@hotmail.com"
+    },
+    {
+        "id": "365",
+        "firstname": "ramon",
+        "lastname": "hoeger",
+        "email": null
+    }
+]
+2026-05-09 09:16:30 [main] ERROR [Thread-3] FAIL : getEmployeeDetails is failed
+2026-05-09 09:16:30 [main] ERROR [Thread-3] FAIL : java.lang.AssertionError: 
+Expecting actual:
+  46
+to be greater than:
+  100
+2026-05-09 09:17:17 [main] INFO  [Thread-3] The passed Pojo data: {
+  "id" : 914,
+  "firstname" : "doreen",
+  "lastname" : "lehner",
+  "email" : "issac.gleason@hotmail.com"
+}
+2026-05-09 09:17:17 [main] INFO  [Thread-3] Creating a new  user
+2026-05-09 09:17:20 [main] INFO  [Thread-3] {
+    "id": 914,
+    "firstname": "doreen",
+    "lastname": "lehner",
+    "email": "issac.gleason@hotmail.com"
+}
+2026-05-09 09:17:21 [main] INFO  [Thread-3] Updating an existing user
+2026-05-09 09:17:21 [main] INFO  [Thread-3] {
+    "id": "914",
+    "firstname": "camila",
+    "lastname": "tillman",
+    "email": "wynell.beer@hotmail.com"
+}
+2026-05-09 09:17:21 [main] INFO  [Thread-3] Deleting the created user
+2026-05-09 09:17:21 [main] INFO  [Thread-3] Validating the created user is not present in the Api after deleting 
+2026-05-09 09:17:21 [main] INFO  [Thread-3] PASS : UserService is passed
+2026-05-09 09:17:21 [main] INFO  [Thread-3] {
+    "id": "272",
+    "firstname": "ivory",
+    "lastname": "sachiko",
+    "email": "calvin.hettinger@hotmail.com"
+}
+2026-05-09 09:17:21 [main] INFO  [Thread-3] PASS : postRequestUsingExternalFile is passed
+2026-05-09 09:17:21 [main] INFO  [Thread-3] {
+    "id": 740,
+    "firstname": "tonette",
+    "lastname": "anderson",
+    "email": null
+}
+2026-05-09 09:17:21 [main] INFO  [Thread-3] PASS : postTests is passed
+2026-05-09 09:17:21 [main] INFO  [Thread-3] {
+    "id": "3",
+    "firstname": "Anita",
+    "lastname": "Reddy",
+    "email": "anita.reddy@example.com"
+}
+2026-05-09 09:17:21 [main] INFO  [Thread-3] PASS : getEmployeeDetail is passed
+2026-05-09 09:17:21 [main] INFO  [Thread-3] [
+    {
+        "id": "3",
+        "firstname": "Anita",
+        "lastname": "Reddy",
+        "email": "anita.reddy@example.com"
+    },
+    {
+        "id": "123",
+        "firstname": "VIJAY",
+        "lastname": "GEDALA",
+        "email": "abc@gmail.com"
+    },
+    {
+        "id": "315",
+        "firstname": "malcolm",
+        "lastname": "jude",
+        "email": "abcJson@gmail.com"
+    },
+    {
+        "firstname": "Vijay",
+        "lastname": "Gedala",
+        "email": "VijayGedala@Gmail.com",
+        "id": "852"
+    },
+    {
+        "id": "919",
+        "firstname": "christian",
+        "lastname": "carmen",
+        "email": "mariann.haag@gmail.com"
+    },
+    {
+        "id": "773",
+        "firstname": "vada",
+        "lastname": "herzog",
+        "email": null
+    },
+    {
+        "id": "300",
+        "firstname": "jewell",
+        "lastname": "aurelio",
+        "email": "elton.mitchell@yahoo.com"
+    },
+    {
+        "id": "968",
+        "firstname": "floyd",
+        "lastname": "gerlach",
+        "email": null
+    },
+    {
+        "id": "411",
+        "firstname": "corey",
+        "lastname": "tony",
+        "email": "isidro.toy@yahoo.com"
+    },
+    {
+        "id": "785",
+        "firstname": "reuben",
+        "lastname": "veum",
+        "email": null
+    },
+    {
+        "id": "309",
+        "firstname": "martin",
+        "lastname": "rodrick",
+        "email": "beverley.becker@hotmail.com"
+    },
+    {
+        "id": "814",
+        "firstname": "drew",
+        "lastname": "lockman",
+        "email": null
+    },
+    {
+        "id": "162",
+        "firstname": "myong",
+        "lastname": "rolland",
+        "email": "josue.wuckert@gmail.com"
+    },
+    {
+        "id": "769",
+        "firstname": "ivy",
+        "lastname": "medhurst",
+        "email": null
+    },
+    {
+        "id": "931",
+        "firstname": "winter",
+        "lastname": "ellis",
+        "email": "salome.lemke@hotmail.com"
+    },
+    {
+        "id": "237",
+        "firstname": "doreen",
+        "lastname": "ebert",
+        "email": null
+    },
+    {
+        "id": "445",
+        "firstname": "mikaela",
+        "lastname": "fidela",
+        "email": "pasquale.wisoky@gmail.com"
+    },
+    {
+        "id": "586",
+        "firstname": "hilton",
+        "lastname": "mohr",
+        "email": null
+    },
+    {
+        "id": "801",
+        "firstname": "jose",
+        "lastname": "starr",
+        "email": "edda.hartmann@yahoo.com"
+    },
+    {
+        "id": "236",
+        "firstname": "yasmin",
+        "lastname": "breitenberg",
+        "email": null
+    },
+    {
+        "id": "988",
+        "firstname": "chong",
+        "lastname": "mickey",
+        "email": "cherelle.mills@gmail.com"
+    },
+    {
+        "id": "177",
+        "firstname": "tracey",
+        "lastname": "carter",
+        "email": null
+    },
+    {
+        "id": "721",
+        "firstname": "britt",
+        "lastname": "gregory",
+        "email": "sal.schuppe@gmail.com"
+    },
+    {
+        "id": "293",
+        "firstname": "tatum",
+        "lastname": "heaney",
+        "email": null
+    },
+    {
+        "id": "156",
+        "firstname": "toney",
+        "lastname": "cassi",
+        "email": "marlen.hodkiewicz@yahoo.com"
+    },
+    {
+        "id": "211",
+        "firstname": "wes",
+        "lastname": "wyman",
+        "email": null
+    },
+    {
+        "id": "376",
+        "firstname": "olive",
+        "lastname": "carmine",
+        "email": "mikel.smitham@yahoo.com"
+    },
+    {
+        "id": "642",
+        "firstname": "angelo",
+        "lastname": "bednar",
+        "email": null
+    },
+    {
+        "id": "118",
+        "firstname": "ines",
+        "lastname": "rolland",
+        "email": "kyoko.nitzsche@gmail.com"
+    },
+    {
+        "id": "383",
+        "firstname": "fredrick",
+        "lastname": "boehm",
+        "email": null
+    },
+    {
+        "id": "739",
+        "firstname": "christi",
+        "lastname": "kerri",
+        "email": "louvenia.bednar@hotmail.com"
+    },
+    {
+        "id": "907",
+        "firstname": "dave",
+        "lastname": "bahringer",
+        "email": null
+    },
+    {
+        "id": "259",
+        "firstname": "mendy",
+        "lastname": "aurelio",
+        "email": "titus.pouros@yahoo.com"
+    },
+    {
+        "id": "723",
+        "firstname": "kai",
+        "lastname": "schroeder",
+        "email": null
+    },
+    {
+        "id": "740",
+        "firstname": "sherlene",
+        "lastname": "faviola",
+        "email": "stacy.daniel@yahoo.com"
+    },
+    {
+        "id": "143",
+        "firstname": "esperanza",
+        "lastname": "hettinger",
+        "email": null
+    },
+    {
+        "id": "423",
+        "firstname": "quentin",
+        "lastname": "maryalice",
+        "email": "henry.mann@yahoo.com"
+    },
+    {
+        "id": "114",
+        "firstname": "alaina",
+        "lastname": "heidenreich",
+        "email": null
+    },
+    {
+        "id": "137",
+        "firstname": "glenn",
+        "lastname": "riley",
+        "email": "lyndon.osinski@gmail.com"
+    },
+    {
+        "id": "173",
+        "firstname": "adrienne",
+        "lastname": "kuvalis",
+        "email": null
+    },
+    {
+        "id": "988",
+        "firstname": "reyes",
+        "lastname": "harmony",
+        "email": "isiah.brakus@hotmail.com"
+    },
+    {
+        "id": "576",
+        "firstname": "veda",
+        "lastname": "hauck",
+        "email": null
+    },
+    {
+        "id": "701",
+        "firstname": "jimmie",
+        "lastname": "norbert",
+        "email": "sharika.ledner@gmail.com"
+    },
+    {
+        "id": "578",
+        "firstname": "maria",
+        "lastname": "durgan",
+        "email": null
+    },
+    {
+        "id": "273",
+        "firstname": "kaylene",
+        "lastname": "lonnie",
+        "email": "julian.schiller@hotmail.com"
+    },
+    {
+        "id": "365",
+        "firstname": "ramon",
+        "lastname": "hoeger",
+        "email": null
+    },
+    {
+        "id": "272",
+        "firstname": "ivory",
+        "lastname": "sachiko",
+        "email": "calvin.hettinger@hotmail.com"
+    },
+    {
+        "id": "740",
+        "firstname": "tonette",
+        "lastname": "anderson",
+        "email": null
+    }
+]
+2026-05-09 09:17:21 [main] ERROR [Thread-3] FAIL : getEmployeeDetails is failed
+2026-05-09 09:17:21 [main] ERROR [Thread-3] FAIL : java.lang.AssertionError: 
+Expecting actual:
+  48
+to be greater than:
+  100
+2026-05-09 09:20:41 [main] INFO  [Thread-3] The passed Pojo data: {
+  "id" : 818,
+  "firstname" : "kurtis",
+  "lastname" : "brown",
+  "email" : "domonique.satterfield@yahoo.com"
+}
+2026-05-09 09:20:41 [main] INFO  [Thread-3] Creating a new  user
+2026-05-09 09:20:44 [main] INFO  [Thread-3] {
+    "id": 818,
+    "firstname": "kurtis",
+    "lastname": "brown",
+    "email": "domonique.satterfield@yahoo.com"
+}
+2026-05-09 09:20:45 [main] INFO  [Thread-3] Updating an existing user
+2026-05-09 09:20:45 [main] INFO  [Thread-3] {
+    "id": "818",
+    "firstname": "corina",
+    "lastname": "veum",
+    "email": "marion.larson@hotmail.com"
+}
+2026-05-09 09:20:45 [main] INFO  [Thread-3] Deleting the created user
+2026-05-09 09:20:45 [main] INFO  [Thread-3] Validating the created user is not present in the Api after deleting 
+2026-05-09 09:20:45 [main] INFO  [Thread-3] PASS : UserService is passed
+2026-05-09 09:20:45 [main] INFO  [Thread-3] {
+    "id": "343",
+    "firstname": "tyree",
+    "lastname": "tommye",
+    "email": "gustavo.hoeger@gmail.com"
+}
+2026-05-09 09:20:45 [main] INFO  [Thread-3] PASS : postRequestUsingExternalFile is passed
+2026-05-09 09:20:45 [main] INFO  [Thread-3] {
+    "id": 368,
+    "firstname": "rey",
+    "lastname": "hilpert",
+    "email": null
+}
+2026-05-09 09:20:45 [main] INFO  [Thread-3] PASS : postTests is passed
+2026-05-09 09:20:45 [main] INFO  [Thread-3] {
+    "id": "3",
+    "firstname": "Anita",
+    "lastname": "Reddy",
+    "email": "anita.reddy@example.com"
+}
+2026-05-09 09:20:45 [main] INFO  [Thread-3] PASS : getEmployeeDetail is passed
+2026-05-09 09:20:45 [main] INFO  [Thread-3] [
+    {
+        "id": "3",
+        "firstname": "Anita",
+        "lastname": "Reddy",
+        "email": "anita.reddy@example.com"
+    },
+    {
+        "id": "123",
+        "firstname": "VIJAY",
+        "lastname": "GEDALA",
+        "email": "abc@gmail.com"
+    },
+    {
+        "id": "315",
+        "firstname": "malcolm",
+        "lastname": "jude",
+        "email": "abcJson@gmail.com"
+    },
+    {
+        "firstname": "Vijay",
+        "lastname": "Gedala",
+        "email": "VijayGedala@Gmail.com",
+        "id": "852"
+    },
+    {
+        "id": "919",
+        "firstname": "christian",
+        "lastname": "carmen",
+        "email": "mariann.haag@gmail.com"
+    },
+    {
+        "id": "773",
+        "firstname": "vada",
+        "lastname": "herzog",
+        "email": null
+    },
+    {
+        "id": "300",
+        "firstname": "jewell",
+        "lastname": "aurelio",
+        "email": "elton.mitchell@yahoo.com"
+    },
+    {
+        "id": "968",
+        "firstname": "floyd",
+        "lastname": "gerlach",
+        "email": null
+    },
+    {
+        "id": "411",
+        "firstname": "corey",
+        "lastname": "tony",
+        "email": "isidro.toy@yahoo.com"
+    },
+    {
+        "id": "785",
+        "firstname": "reuben",
+        "lastname": "veum",
+        "email": null
+    },
+    {
+        "id": "309",
+        "firstname": "martin",
+        "lastname": "rodrick",
+        "email": "beverley.becker@hotmail.com"
+    },
+    {
+        "id": "814",
+        "firstname": "drew",
+        "lastname": "lockman",
+        "email": null
+    },
+    {
+        "id": "162",
+        "firstname": "myong",
+        "lastname": "rolland",
+        "email": "josue.wuckert@gmail.com"
+    },
+    {
+        "id": "769",
+        "firstname": "ivy",
+        "lastname": "medhurst",
+        "email": null
+    },
+    {
+        "id": "931",
+        "firstname": "winter",
+        "lastname": "ellis",
+        "email": "salome.lemke@hotmail.com"
+    },
+    {
+        "id": "237",
+        "firstname": "doreen",
+        "lastname": "ebert",
+        "email": null
+    },
+    {
+        "id": "445",
+        "firstname": "mikaela",
+        "lastname": "fidela",
+        "email": "pasquale.wisoky@gmail.com"
+    },
+    {
+        "id": "586",
+        "firstname": "hilton",
+        "lastname": "mohr",
+        "email": null
+    },
+    {
+        "id": "801",
+        "firstname": "jose",
+        "lastname": "starr",
+        "email": "edda.hartmann@yahoo.com"
+    },
+    {
+        "id": "236",
+        "firstname": "yasmin",
+        "lastname": "breitenberg",
+        "email": null
+    },
+    {
+        "id": "988",
+        "firstname": "chong",
+        "lastname": "mickey",
+        "email": "cherelle.mills@gmail.com"
+    },
+    {
+        "id": "177",
+        "firstname": "tracey",
+        "lastname": "carter",
+        "email": null
+    },
+    {
+        "id": "721",
+        "firstname": "britt",
+        "lastname": "gregory",
+        "email": "sal.schuppe@gmail.com"
+    },
+    {
+        "id": "293",
+        "firstname": "tatum",
+        "lastname": "heaney",
+        "email": null
+    },
+    {
+        "id": "156",
+        "firstname": "toney",
+        "lastname": "cassi",
+        "email": "marlen.hodkiewicz@yahoo.com"
+    },
+    {
+        "id": "211",
+        "firstname": "wes",
+        "lastname": "wyman",
+        "email": null
+    },
+    {
+        "id": "376",
+        "firstname": "olive",
+        "lastname": "carmine",
+        "email": "mikel.smitham@yahoo.com"
+    },
+    {
+        "id": "642",
+        "firstname": "angelo",
+        "lastname": "bednar",
+        "email": null
+    },
+    {
+        "id": "118",
+        "firstname": "ines",
+        "lastname": "rolland",
+        "email": "kyoko.nitzsche@gmail.com"
+    },
+    {
+        "id": "383",
+        "firstname": "fredrick",
+        "lastname": "boehm",
+        "email": null
+    },
+    {
+        "id": "739",
+        "firstname": "christi",
+        "lastname": "kerri",
+        "email": "louvenia.bednar@hotmail.com"
+    },
+    {
+        "id": "907",
+        "firstname": "dave",
+        "lastname": "bahringer",
+        "email": null
+    },
+    {
+        "id": "259",
+        "firstname": "mendy",
+        "lastname": "aurelio",
+        "email": "titus.pouros@yahoo.com"
+    },
+    {
+        "id": "723",
+        "firstname": "kai",
+        "lastname": "schroeder",
+        "email": null
+    },
+    {
+        "id": "740",
+        "firstname": "sherlene",
+        "lastname": "faviola",
+        "email": "stacy.daniel@yahoo.com"
+    },
+    {
+        "id": "143",
+        "firstname": "esperanza",
+        "lastname": "hettinger",
+        "email": null
+    },
+    {
+        "id": "423",
+        "firstname": "quentin",
+        "lastname": "maryalice",
+        "email": "henry.mann@yahoo.com"
+    },
+    {
+        "id": "114",
+        "firstname": "alaina",
+        "lastname": "heidenreich",
+        "email": null
+    },
+    {
+        "id": "137",
+        "firstname": "glenn",
+        "lastname": "riley",
+        "email": "lyndon.osinski@gmail.com"
+    },
+    {
+        "id": "173",
+        "firstname": "adrienne",
+        "lastname": "kuvalis",
+        "email": null
+    },
+    {
+        "id": "988",
+        "firstname": "reyes",
+        "lastname": "harmony",
+        "email": "isiah.brakus@hotmail.com"
+    },
+    {
+        "id": "576",
+        "firstname": "veda",
+        "lastname": "hauck",
+        "email": null
+    },
+    {
+        "id": "701",
+        "firstname": "jimmie",
+        "lastname": "norbert",
+        "email": "sharika.ledner@gmail.com"
+    },
+    {
+        "id": "578",
+        "firstname": "maria",
+        "lastname": "durgan",
+        "email": null
+    },
+    {
+        "id": "273",
+        "firstname": "kaylene",
+        "lastname": "lonnie",
+        "email": "julian.schiller@hotmail.com"
+    },
+    {
+        "id": "365",
+        "firstname": "ramon",
+        "lastname": "hoeger",
+        "email": null
+    },
+    {
+        "id": "272",
+        "firstname": "ivory",
+        "lastname": "sachiko",
+        "email": "calvin.hettinger@hotmail.com"
+    },
+    {
+        "id": "740",
+        "firstname": "tonette",
+        "lastname": "anderson",
+        "email": null
+    },
+    {
+        "id": "343",
+        "firstname": "tyree",
+        "lastname": "tommye",
+        "email": "gustavo.hoeger@gmail.com"
+    },
+    {
+        "id": "368",
+        "firstname": "rey",
+        "lastname": "hilpert",
+        "email": null
+    }
+]
+2026-05-09 09:20:45 [main] ERROR [Thread-3] FAIL : getEmployeeDetails is failed
+2026-05-09 09:20:45 [main] ERROR [Thread-3] FAIL : java.lang.AssertionError: 
+Expecting actual:
+  50
+to be greater than:
+  100
+2026-05-09 11:31:54 [main] INFO  [Thread-3] The passed Pojo data: {
+  "id" : 416,
+  "firstname" : "tomoko",
+  "lastname" : "denesik",
+  "email" : "rosario.witting@hotmail.com"
+}
+2026-05-09 11:31:54 [main] INFO  [Thread-3] Creating a new  user
+2026-05-09 11:31:56 [main] INFO  [Thread-3] Not Found
+2026-05-09 11:31:56 [main] ERROR [Thread-3] FAIL : UserService is failed
+2026-05-09 11:31:56 [main] ERROR [Thread-3] FAIL : java.lang.AssertionError: 
+expected: 201
+ but was: 404
+2026-05-09 11:31:56 [main] INFO  [Thread-3] Not Found
+2026-05-09 11:31:56 [main] ERROR [Thread-3] FAIL : postRequestUsingExternalFile is failed
+2026-05-09 11:31:56 [main] ERROR [Thread-3] FAIL : java.lang.AssertionError: 
+expected: 201
+ but was: 404
+2026-05-09 11:31:56 [main] INFO  [Thread-3] Not Found
+2026-05-09 11:31:56 [main] ERROR [Thread-3] FAIL : postTests is failed
+2026-05-09 11:31:56 [main] ERROR [Thread-3] FAIL : java.lang.AssertionError: 
+expected: 201
+ but was: 404
+2026-05-09 11:31:57 [main] INFO  [Thread-3] Not Found
+2026-05-09 11:31:57 [main] ERROR [Thread-3] FAIL : getEmployeeDetail is failed
+2026-05-09 11:31:57 [main] ERROR [Thread-3] FAIL : java.lang.AssertionError: 
+expected: 200
+ but was: 404
+2026-05-09 11:31:57 [main] INFO  [Thread-3] Not Found
+2026-05-09 11:31:57 [main] ERROR [Thread-3] FAIL : getEmployeeDetails is failed
+2026-05-09 11:31:57 [main] ERROR [Thread-3] FAIL : java.lang.AssertionError: 
+expected: 200
+ but was: 404
+2026-05-09 11:46:42 [main] INFO  [Thread-3] The passed Pojo data: {
+  "id" : 170,
+  "firstname" : "jama",
+  "lastname" : "herzog",
+  "email" : "anglea.rosenbaum@yahoo.com"
+}
+2026-05-09 11:46:42 [main] INFO  [Thread-3] Creating a new  user
+2026-05-09 11:46:45 [main] INFO  [Thread-3] {
+    "id": 170,
+    "firstname": "jama",
+    "lastname": "herzog",
+    "email": "anglea.rosenbaum@yahoo.com"
+}
+2026-05-09 11:46:46 [main] INFO  [Thread-3] Updating an existing user
+2026-05-09 11:46:46 [main] INFO  [Thread-3] {
+    "id": "170",
+    "firstname": "roberto",
+    "lastname": "douglas",
+    "email": "wilfred.jones@gmail.com"
+}
+2026-05-09 11:46:46 [main] INFO  [Thread-3] Deleting the created user
+2026-05-09 11:46:46 [main] INFO  [Thread-3] Validating the created user is not present in the Api after deleting 
+2026-05-09 11:46:46 [main] INFO  [Thread-3] PASS : UserService is passed
+2026-05-09 11:46:46 [main] INFO  [Thread-3] {
+    "id": "127",
+    "firstname": "theo",
+    "lastname": "donovan",
+    "email": "augustine.zemlak@hotmail.com"
+}
+2026-05-09 11:46:46 [main] INFO  [Thread-3] PASS : postRequestUsingExternalFile is passed
+2026-05-09 11:46:46 [main] INFO  [Thread-3] {
+    "id": 301,
+    "firstname": "pasquale",
+    "lastname": "dickinson",
+    "email": null
+}
+2026-05-09 11:46:46 [main] INFO  [Thread-3] PASS : postTests is passed
+2026-05-09 11:46:46 [main] INFO  [Thread-3] {
+    "id": "3",
+    "firstname": "Anita",
+    "lastname": "Reddy",
+    "email": "anita.reddy@example.com"
+}
+2026-05-09 11:46:46 [main] INFO  [Thread-3] PASS : getEmployeeDetail is passed
+2026-05-09 11:46:46 [main] INFO  [Thread-3] [
+    {
+        "id": "3",
+        "firstname": "Anita",
+        "lastname": "Reddy",
+        "email": "anita.reddy@example.com"
+    },
+    {
+        "id": "123",
+        "firstname": "VIJAY",
+        "lastname": "GEDALA",
+        "email": "abc@gmail.com"
+    },
+    {
+        "id": "315",
+        "firstname": "malcolm",
+        "lastname": "jude",
+        "email": "abcJson@gmail.com"
+    },
+    {
+        "firstname": "Vijay",
+        "lastname": "Gedala",
+        "email": "VijayGedala@Gmail.com",
+        "id": "852"
+    },
+    {
+        "id": "919",
+        "firstname": "christian",
+        "lastname": "carmen",
+        "email": "mariann.haag@gmail.com"
+    },
+    {
+        "id": "773",
+        "firstname": "vada",
+        "lastname": "herzog",
+        "email": null
+    },
+    {
+        "id": "300",
+        "firstname": "jewell",
+        "lastname": "aurelio",
+        "email": "elton.mitchell@yahoo.com"
+    },
+    {
+        "id": "968",
+        "firstname": "floyd",
+        "lastname": "gerlach",
+        "email": null
+    },
+    {
+        "id": "411",
+        "firstname": "corey",
+        "lastname": "tony",
+        "email": "isidro.toy@yahoo.com"
+    },
+    {
+        "id": "785",
+        "firstname": "reuben",
+        "lastname": "veum",
+        "email": null
+    },
+    {
+        "id": "309",
+        "firstname": "martin",
+        "lastname": "rodrick",
+        "email": "beverley.becker@hotmail.com"
+    },
+    {
+        "id": "814",
+        "firstname": "drew",
+        "lastname": "lockman",
+        "email": null
+    },
+    {
+        "id": "162",
+        "firstname": "myong",
+        "lastname": "rolland",
+        "email": "josue.wuckert@gmail.com"
+    },
+    {
+        "id": "769",
+        "firstname": "ivy",
+        "lastname": "medhurst",
+        "email": null
+    },
+    {
+        "id": "931",
+        "firstname": "winter",
+        "lastname": "ellis",
+        "email": "salome.lemke@hotmail.com"
+    },
+    {
+        "id": "237",
+        "firstname": "doreen",
+        "lastname": "ebert",
+        "email": null
+    },
+    {
+        "id": "445",
+        "firstname": "mikaela",
+        "lastname": "fidela",
+        "email": "pasquale.wisoky@gmail.com"
+    },
+    {
+        "id": "586",
+        "firstname": "hilton",
+        "lastname": "mohr",
+        "email": null
+    },
+    {
+        "id": "801",
+        "firstname": "jose",
+        "lastname": "starr",
+        "email": "edda.hartmann@yahoo.com"
+    },
+    {
+        "id": "236",
+        "firstname": "yasmin",
+        "lastname": "breitenberg",
+        "email": null
+    },
+    {
+        "id": "988",
+        "firstname": "chong",
+        "lastname": "mickey",
+        "email": "cherelle.mills@gmail.com"
+    },
+    {
+        "id": "177",
+        "firstname": "tracey",
+        "lastname": "carter",
+        "email": null
+    },
+    {
+        "id": "721",
+        "firstname": "britt",
+        "lastname": "gregory",
+        "email": "sal.schuppe@gmail.com"
+    },
+    {
+        "id": "293",
+        "firstname": "tatum",
+        "lastname": "heaney",
+        "email": null
+    },
+    {
+        "id": "156",
+        "firstname": "toney",
+        "lastname": "cassi",
+        "email": "marlen.hodkiewicz@yahoo.com"
+    },
+    {
+        "id": "211",
+        "firstname": "wes",
+        "lastname": "wyman",
+        "email": null
+    },
+    {
+        "id": "376",
+        "firstname": "olive",
+        "lastname": "carmine",
+        "email": "mikel.smitham@yahoo.com"
+    },
+    {
+        "id": "642",
+        "firstname": "angelo",
+        "lastname": "bednar",
+        "email": null
+    },
+    {
+        "id": "118",
+        "firstname": "ines",
+        "lastname": "rolland",
+        "email": "kyoko.nitzsche@gmail.com"
+    },
+    {
+        "id": "383",
+        "firstname": "fredrick",
+        "lastname": "boehm",
+        "email": null
+    },
+    {
+        "id": "739",
+        "firstname": "christi",
+        "lastname": "kerri",
+        "email": "louvenia.bednar@hotmail.com"
+    },
+    {
+        "id": "907",
+        "firstname": "dave",
+        "lastname": "bahringer",
+        "email": null
+    },
+    {
+        "id": "259",
+        "firstname": "mendy",
+        "lastname": "aurelio",
+        "email": "titus.pouros@yahoo.com"
+    },
+    {
+        "id": "723",
+        "firstname": "kai",
+        "lastname": "schroeder",
+        "email": null
+    },
+    {
+        "id": "740",
+        "firstname": "sherlene",
+        "lastname": "faviola",
+        "email": "stacy.daniel@yahoo.com"
+    },
+    {
+        "id": "143",
+        "firstname": "esperanza",
+        "lastname": "hettinger",
+        "email": null
+    },
+    {
+        "id": "423",
+        "firstname": "quentin",
+        "lastname": "maryalice",
+        "email": "henry.mann@yahoo.com"
+    },
+    {
+        "id": "114",
+        "firstname": "alaina",
+        "lastname": "heidenreich",
+        "email": null
+    },
+    {
+        "id": "137",
+        "firstname": "glenn",
+        "lastname": "riley",
+        "email": "lyndon.osinski@gmail.com"
+    },
+    {
+        "id": "173",
+        "firstname": "adrienne",
+        "lastname": "kuvalis",
+        "email": null
+    },
+    {
+        "id": "988",
+        "firstname": "reyes",
+        "lastname": "harmony",
+        "email": "isiah.brakus@hotmail.com"
+    },
+    {
+        "id": "576",
+        "firstname": "veda",
+        "lastname": "hauck",
+        "email": null
+    },
+    {
+        "id": "701",
+        "firstname": "jimmie",
+        "lastname": "norbert",
+        "email": "sharika.ledner@gmail.com"
+    },
+    {
+        "id": "578",
+        "firstname": "maria",
+        "lastname": "durgan",
+        "email": null
+    },
+    {
+        "id": "273",
+        "firstname": "kaylene",
+        "lastname": "lonnie",
+        "email": "julian.schiller@hotmail.com"
+    },
+    {
+        "id": "365",
+        "firstname": "ramon",
+        "lastname": "hoeger",
+        "email": null
+    },
+    {
+        "id": "272",
+        "firstname": "ivory",
+        "lastname": "sachiko",
+        "email": "calvin.hettinger@hotmail.com"
+    },
+    {
+        "id": "740",
+        "firstname": "tonette",
+        "lastname": "anderson",
+        "email": null
+    },
+    {
+        "id": "343",
+        "firstname": "tyree",
+        "lastname": "tommye",
+        "email": "gustavo.hoeger@gmail.com"
+    },
+    {
+        "id": "368",
+        "firstname": "rey",
+        "lastname": "hilpert",
+        "email": null
+    },
+    {
+        "id": "266",
+        "firstname": "lindsay",
+        "lastname": "davis",
+        "email": "morgan.rau@yahoo.com"
+    },
+    {
+        "id": "371",
+        "firstname": "chong",
+        "lastname": "effertz",
+        "email": null
+    },
+    {
+        "id": "500",
+        "firstname": "porsche",
+        "lastname": "shirley",
+        "email": "karissa.connelly@gmail.com"
+    },
+    {
+        "id": "261",
+        "firstname": "jenette",
+        "lastname": "schaden",
+        "email": null
+    },
+    {
+        "id": "127",
+        "firstname": "theo",
+        "lastname": "donovan",
+        "email": "augustine.zemlak@hotmail.com"
+    },
+    {
+        "id": "301",
+        "firstname": "pasquale",
+        "lastname": "dickinson",
+        "email": null
+    }
+]
+2026-05-09 11:46:46 [main] ERROR [Thread-3] FAIL : getEmployeeDetails is failed
+2026-05-09 11:46:46 [main] ERROR [Thread-3] FAIL : java.lang.AssertionError: 
+Expecting actual:
+  56
+to be greater than:
+  100
+2026-05-09 11:51:04 [main] INFO  [Thread-3] The passed Pojo data: {
+  "id" : 548,
+  "firstname" : "rodrick",
+  "lastname" : "hegmann",
+  "email" : "maurine.durgan@yahoo.com"
+}
+2026-05-09 11:51:04 [main] INFO  [Thread-3] Creating a new  user
+2026-05-09 11:51:06 [main] INFO  [Thread-3] {
+    "id": 548,
+    "firstname": "rodrick",
+    "lastname": "hegmann",
+    "email": "maurine.durgan@yahoo.com"
+}
+2026-05-09 11:51:07 [main] INFO  [Thread-3] Updating an existing user
+2026-05-09 11:51:07 [main] INFO  [Thread-3] {
+    "id": "548",
+    "firstname": "gayle",
+    "lastname": "doyle",
+    "email": "rosamaria.ratke@gmail.com"
+}
+2026-05-09 11:51:07 [main] INFO  [Thread-3] Deleting the created user
+2026-05-09 11:51:07 [main] INFO  [Thread-3] Validating the created user is not present in the Api after deleting 
+2026-05-09 11:51:07 [main] INFO  [Thread-3] PASS : UserService is passed
+2026-05-09 11:51:07 [main] INFO  [Thread-3] {
+    "id": "625",
+    "firstname": "celia",
+    "lastname": "ebony",
+    "email": "dana.torphy@gmail.com"
+}
+2026-05-09 11:51:07 [main] INFO  [Thread-3] PASS : postRequestUsingExternalFile is passed
+2026-05-09 11:51:07 [main] INFO  [Thread-3] {
+    "id": 170,
+    "firstname": "pricilla",
+    "lastname": "monahan",
+    "email": null
+}
+2026-05-09 11:51:07 [main] INFO  [Thread-3] PASS : postTests is passed
+2026-05-09 11:51:07 [main] INFO  [Thread-3] {
+    "id": "3",
+    "firstname": "Anita",
+    "lastname": "Reddy",
+    "email": "anita.reddy@example.com"
+}
+2026-05-09 11:51:07 [main] INFO  [Thread-3] PASS : getEmployeeDetail is passed
+2026-05-09 11:51:07 [main] INFO  [Thread-3] [
+    {
+        "id": "3",
+        "firstname": "Anita",
+        "lastname": "Reddy",
+        "email": "anita.reddy@example.com"
+    },
+    {
+        "id": "123",
+        "firstname": "VIJAY",
+        "lastname": "GEDALA",
+        "email": "abc@gmail.com"
+    },
+    {
+        "id": "315",
+        "firstname": "malcolm",
+        "lastname": "jude",
+        "email": "abcJson@gmail.com"
+    },
+    {
+        "firstname": "Vijay",
+        "lastname": "Gedala",
+        "email": "VijayGedala@Gmail.com",
+        "id": "852"
+    },
+    {
+        "id": "919",
+        "firstname": "christian",
+        "lastname": "carmen",
+        "email": "mariann.haag@gmail.com"
+    },
+    {
+        "id": "773",
+        "firstname": "vada",
+        "lastname": "herzog",
+        "email": null
+    },
+    {
+        "id": "300",
+        "firstname": "jewell",
+        "lastname": "aurelio",
+        "email": "elton.mitchell@yahoo.com"
+    },
+    {
+        "id": "968",
+        "firstname": "floyd",
+        "lastname": "gerlach",
+        "email": null
+    },
+    {
+        "id": "411",
+        "firstname": "corey",
+        "lastname": "tony",
+        "email": "isidro.toy@yahoo.com"
+    },
+    {
+        "id": "785",
+        "firstname": "reuben",
+        "lastname": "veum",
+        "email": null
+    },
+    {
+        "id": "309",
+        "firstname": "martin",
+        "lastname": "rodrick",
+        "email": "beverley.becker@hotmail.com"
+    },
+    {
+        "id": "814",
+        "firstname": "drew",
+        "lastname": "lockman",
+        "email": null
+    },
+    {
+        "id": "162",
+        "firstname": "myong",
+        "lastname": "rolland",
+        "email": "josue.wuckert@gmail.com"
+    },
+    {
+        "id": "769",
+        "firstname": "ivy",
+        "lastname": "medhurst",
+        "email": null
+    },
+    {
+        "id": "931",
+        "firstname": "winter",
+        "lastname": "ellis",
+        "email": "salome.lemke@hotmail.com"
+    },
+    {
+        "id": "237",
+        "firstname": "doreen",
+        "lastname": "ebert",
+        "email": null
+    },
+    {
+        "id": "445",
+        "firstname": "mikaela",
+        "lastname": "fidela",
+        "email": "pasquale.wisoky@gmail.com"
+    },
+    {
+        "id": "586",
+        "firstname": "hilton",
+        "lastname": "mohr",
+        "email": null
+    },
+    {
+        "id": "801",
+        "firstname": "jose",
+        "lastname": "starr",
+        "email": "edda.hartmann@yahoo.com"
+    },
+    {
+        "id": "236",
+        "firstname": "yasmin",
+        "lastname": "breitenberg",
+        "email": null
+    },
+    {
+        "id": "988",
+        "firstname": "chong",
+        "lastname": "mickey",
+        "email": "cherelle.mills@gmail.com"
+    },
+    {
+        "id": "177",
+        "firstname": "tracey",
+        "lastname": "carter",
+        "email": null
+    },
+    {
+        "id": "721",
+        "firstname": "britt",
+        "lastname": "gregory",
+        "email": "sal.schuppe@gmail.com"
+    },
+    {
+        "id": "293",
+        "firstname": "tatum",
+        "lastname": "heaney",
+        "email": null
+    },
+    {
+        "id": "156",
+        "firstname": "toney",
+        "lastname": "cassi",
+        "email": "marlen.hodkiewicz@yahoo.com"
+    },
+    {
+        "id": "211",
+        "firstname": "wes",
+        "lastname": "wyman",
+        "email": null
+    },
+    {
+        "id": "376",
+        "firstname": "olive",
+        "lastname": "carmine",
+        "email": "mikel.smitham@yahoo.com"
+    },
+    {
+        "id": "642",
+        "firstname": "angelo",
+        "lastname": "bednar",
+        "email": null
+    },
+    {
+        "id": "118",
+        "firstname": "ines",
+        "lastname": "rolland",
+        "email": "kyoko.nitzsche@gmail.com"
+    },
+    {
+        "id": "383",
+        "firstname": "fredrick",
+        "lastname": "boehm",
+        "email": null
+    },
+    {
+        "id": "739",
+        "firstname": "christi",
+        "lastname": "kerri",
+        "email": "louvenia.bednar@hotmail.com"
+    },
+    {
+        "id": "907",
+        "firstname": "dave",
+        "lastname": "bahringer",
+        "email": null
+    },
+    {
+        "id": "259",
+        "firstname": "mendy",
+        "lastname": "aurelio",
+        "email": "titus.pouros@yahoo.com"
+    },
+    {
+        "id": "723",
+        "firstname": "kai",
+        "lastname": "schroeder",
+        "email": null
+    },
+    {
+        "id": "740",
+        "firstname": "sherlene",
+        "lastname": "faviola",
+        "email": "stacy.daniel@yahoo.com"
+    },
+    {
+        "id": "143",
+        "firstname": "esperanza",
+        "lastname": "hettinger",
+        "email": null
+    },
+    {
+        "id": "423",
+        "firstname": "quentin",
+        "lastname": "maryalice",
+        "email": "henry.mann@yahoo.com"
+    },
+    {
+        "id": "114",
+        "firstname": "alaina",
+        "lastname": "heidenreich",
+        "email": null
+    },
+    {
+        "id": "137",
+        "firstname": "glenn",
+        "lastname": "riley",
+        "email": "lyndon.osinski@gmail.com"
+    },
+    {
+        "id": "173",
+        "firstname": "adrienne",
+        "lastname": "kuvalis",
+        "email": null
+    },
+    {
+        "id": "988",
+        "firstname": "reyes",
+        "lastname": "harmony",
+        "email": "isiah.brakus@hotmail.com"
+    },
+    {
+        "id": "576",
+        "firstname": "veda",
+        "lastname": "hauck",
+        "email": null
+    },
+    {
+        "id": "701",
+        "firstname": "jimmie",
+        "lastname": "norbert",
+        "email": "sharika.ledner@gmail.com"
+    },
+    {
+        "id": "578",
+        "firstname": "maria",
+        "lastname": "durgan",
+        "email": null
+    },
+    {
+        "id": "273",
+        "firstname": "kaylene",
+        "lastname": "lonnie",
+        "email": "julian.schiller@hotmail.com"
+    },
+    {
+        "id": "365",
+        "firstname": "ramon",
+        "lastname": "hoeger",
+        "email": null
+    },
+    {
+        "id": "272",
+        "firstname": "ivory",
+        "lastname": "sachiko",
+        "email": "calvin.hettinger@hotmail.com"
+    },
+    {
+        "id": "740",
+        "firstname": "tonette",
+        "lastname": "anderson",
+        "email": null
+    },
+    {
+        "id": "343",
+        "firstname": "tyree",
+        "lastname": "tommye",
+        "email": "gustavo.hoeger@gmail.com"
+    },
+    {
+        "id": "368",
+        "firstname": "rey",
+        "lastname": "hilpert",
+        "email": null
+    },
+    {
+        "id": "266",
+        "firstname": "lindsay",
+        "lastname": "davis",
+        "email": "morgan.rau@yahoo.com"
+    },
+    {
+        "id": "371",
+        "firstname": "chong",
+        "lastname": "effertz",
+        "email": null
+    },
+    {
+        "id": "500",
+        "firstname": "porsche",
+        "lastname": "shirley",
+        "email": "karissa.connelly@gmail.com"
+    },
+    {
+        "id": "261",
+        "firstname": "jenette",
+        "lastname": "schaden",
+        "email": null
+    },
+    {
+        "id": "127",
+        "firstname": "theo",
+        "lastname": "donovan",
+        "email": "augustine.zemlak@hotmail.com"
+    },
+    {
+        "id": "301",
+        "firstname": "pasquale",
+        "lastname": "dickinson",
+        "email": null
+    },
+    {
+        "id": "625",
+        "firstname": "celia",
+        "lastname": "ebony",
+        "email": "dana.torphy@gmail.com"
+    },
+    {
+        "id": "170",
+        "firstname": "pricilla",
+        "lastname": "monahan",
+        "email": null
+    }
+]
+2026-05-09 11:51:07 [main] ERROR [Thread-3] FAIL : getEmployeeDetails is failed
+2026-05-09 11:51:07 [main] ERROR [Thread-3] FAIL : java.lang.AssertionError: 
+Expecting actual:
+  58
+to be greater than:
+  100
+2026-05-09 19:36:28 [main] INFO  [Thread-3] The passed Pojo data: {
+  "id" : 829,
+  "firstname" : "kristine",
+  "lastname" : "rohan",
+  "email" : "alfredia.mraz@gmail.com"
+}
+2026-05-09 19:36:28 [main] INFO  [Thread-3] Creating a new  user
+2026-05-09 19:36:31 [main] INFO  [Thread-3] {
+    "id": 829,
+    "firstname": "kristine",
+    "lastname": "rohan",
+    "email": "alfredia.mraz@gmail.com"
+}
+2026-05-09 19:36:31 [main] INFO  [Thread-3] Updating an existing user
+2026-05-09 19:36:31 [main] INFO  [Thread-3] {
+    "id": "829",
+    "firstname": "lilli",
+    "lastname": "parisian",
+    "email": "paris.aufderhar@gmail.com"
+}
+2026-05-09 19:36:31 [main] INFO  [Thread-3] Deleting the created user
+2026-05-09 19:36:31 [main] INFO  [Thread-3] Validating the created user is not present in the Api after deleting 
+2026-05-09 19:36:32 [main] INFO  [Thread-3] PASS : UserService is passed
+2026-05-09 19:36:32 [main] INFO  [Thread-3] {
+    "id": "293",
+    "firstname": "dion",
+    "lastname": "zane",
+    "email": "eddy.prohaska@gmail.com"
+}
+2026-05-09 19:36:32 [main] INFO  [Thread-3] PASS : postRequestUsingExternalFile is passed
+2026-05-09 19:36:32 [main] INFO  [Thread-3] {
+    "id": 383,
+    "firstname": "josef",
+    "lastname": "robel",
+    "email": null
+}
+2026-05-09 19:36:32 [main] INFO  [Thread-3] PASS : postTests is passed
+2026-05-09 19:36:32 [main] INFO  [Thread-3] {
+    "id": "3",
+    "firstname": "Anita",
+    "lastname": "Reddy",
+    "email": "anita.reddy@example.com"
+}
+2026-05-09 19:36:32 [main] INFO  [Thread-3] PASS : getEmployeeDetail is passed
+2026-05-09 19:36:32 [main] INFO  [Thread-3] [
+    {
+        "id": "3",
+        "firstname": "Anita",
+        "lastname": "Reddy",
+        "email": "anita.reddy@example.com"
+    },
+    {
+        "id": "123",
+        "firstname": "VIJAY",
+        "lastname": "GEDALA",
+        "email": "abc@gmail.com"
+    },
+    {
+        "id": "315",
+        "firstname": "malcolm",
+        "lastname": "jude",
+        "email": "abcJson@gmail.com"
+    },
+    {
+        "firstname": "Vijay",
+        "lastname": "Gedala",
+        "email": "VijayGedala@Gmail.com",
+        "id": "852"
+    },
+    {
+        "id": "919",
+        "firstname": "christian",
+        "lastname": "carmen",
+        "email": "mariann.haag@gmail.com"
+    },
+    {
+        "id": "773",
+        "firstname": "vada",
+        "lastname": "herzog",
+        "email": null
+    },
+    {
+        "id": "300",
+        "firstname": "jewell",
+        "lastname": "aurelio",
+        "email": "elton.mitchell@yahoo.com"
+    },
+    {
+        "id": "968",
+        "firstname": "floyd",
+        "lastname": "gerlach",
+        "email": null
+    },
+    {
+        "id": "411",
+        "firstname": "corey",
+        "lastname": "tony",
+        "email": "isidro.toy@yahoo.com"
+    },
+    {
+        "id": "785",
+        "firstname": "reuben",
+        "lastname": "veum",
+        "email": null
+    },
+    {
+        "id": "309",
+        "firstname": "martin",
+        "lastname": "rodrick",
+        "email": "beverley.becker@hotmail.com"
+    },
+    {
+        "id": "814",
+        "firstname": "drew",
+        "lastname": "lockman",
+        "email": null
+    },
+    {
+        "id": "162",
+        "firstname": "myong",
+        "lastname": "rolland",
+        "email": "josue.wuckert@gmail.com"
+    },
+    {
+        "id": "769",
+        "firstname": "ivy",
+        "lastname": "medhurst",
+        "email": null
+    },
+    {
+        "id": "931",
+        "firstname": "winter",
+        "lastname": "ellis",
+        "email": "salome.lemke@hotmail.com"
+    },
+    {
+        "id": "237",
+        "firstname": "doreen",
+        "lastname": "ebert",
+        "email": null
+    },
+    {
+        "id": "445",
+        "firstname": "mikaela",
+        "lastname": "fidela",
+        "email": "pasquale.wisoky@gmail.com"
+    },
+    {
+        "id": "586",
+        "firstname": "hilton",
+        "lastname": "mohr",
+        "email": null
+    },
+    {
+        "id": "801",
+        "firstname": "jose",
+        "lastname": "starr",
+        "email": "edda.hartmann@yahoo.com"
+    },
+    {
+        "id": "236",
+        "firstname": "yasmin",
+        "lastname": "breitenberg",
+        "email": null
+    },
+    {
+        "id": "988",
+        "firstname": "chong",
+        "lastname": "mickey",
+        "email": "cherelle.mills@gmail.com"
+    },
+    {
+        "id": "177",
+        "firstname": "tracey",
+        "lastname": "carter",
+        "email": null
+    },
+    {
+        "id": "721",
+        "firstname": "britt",
+        "lastname": "gregory",
+        "email": "sal.schuppe@gmail.com"
+    },
+    {
+        "id": "293",
+        "firstname": "tatum",
+        "lastname": "heaney",
+        "email": null
+    },
+    {
+        "id": "156",
+        "firstname": "toney",
+        "lastname": "cassi",
+        "email": "marlen.hodkiewicz@yahoo.com"
+    },
+    {
+        "id": "211",
+        "firstname": "wes",
+        "lastname": "wyman",
+        "email": null
+    },
+    {
+        "id": "376",
+        "firstname": "olive",
+        "lastname": "carmine",
+        "email": "mikel.smitham@yahoo.com"
+    },
+    {
+        "id": "642",
+        "firstname": "angelo",
+        "lastname": "bednar",
+        "email": null
+    },
+    {
+        "id": "118",
+        "firstname": "ines",
+        "lastname": "rolland",
+        "email": "kyoko.nitzsche@gmail.com"
+    },
+    {
+        "id": "383",
+        "firstname": "fredrick",
+        "lastname": "boehm",
+        "email": null
+    },
+    {
+        "id": "739",
+        "firstname": "christi",
+        "lastname": "kerri",
+        "email": "louvenia.bednar@hotmail.com"
+    },
+    {
+        "id": "907",
+        "firstname": "dave",
+        "lastname": "bahringer",
+        "email": null
+    },
+    {
+        "id": "259",
+        "firstname": "mendy",
+        "lastname": "aurelio",
+        "email": "titus.pouros@yahoo.com"
+    },
+    {
+        "id": "723",
+        "firstname": "kai",
+        "lastname": "schroeder",
+        "email": null
+    },
+    {
+        "id": "740",
+        "firstname": "sherlene",
+        "lastname": "faviola",
+        "email": "stacy.daniel@yahoo.com"
+    },
+    {
+        "id": "143",
+        "firstname": "esperanza",
+        "lastname": "hettinger",
+        "email": null
+    },
+    {
+        "id": "423",
+        "firstname": "quentin",
+        "lastname": "maryalice",
+        "email": "henry.mann@yahoo.com"
+    },
+    {
+        "id": "114",
+        "firstname": "alaina",
+        "lastname": "heidenreich",
+        "email": null
+    },
+    {
+        "id": "137",
+        "firstname": "glenn",
+        "lastname": "riley",
+        "email": "lyndon.osinski@gmail.com"
+    },
+    {
+        "id": "173",
+        "firstname": "adrienne",
+        "lastname": "kuvalis",
+        "email": null
+    },
+    {
+        "id": "988",
+        "firstname": "reyes",
+        "lastname": "harmony",
+        "email": "isiah.brakus@hotmail.com"
+    },
+    {
+        "id": "576",
+        "firstname": "veda",
+        "lastname": "hauck",
+        "email": null
+    },
+    {
+        "id": "578",
+        "firstname": "maria",
+        "lastname": "durgan",
+        "email": null
+    },
+    {
+        "id": "273",
+        "firstname": "kaylene",
+        "lastname": "lonnie",
+        "email": "julian.schiller@hotmail.com"
+    },
+    {
+        "id": "365",
+        "firstname": "ramon",
+        "lastname": "hoeger",
+        "email": null
+    },
+    {
+        "id": "272",
+        "firstname": "ivory",
+        "lastname": "sachiko",
+        "email": "calvin.hettinger@hotmail.com"
+    },
+    {
+        "id": "740",
+        "firstname": "tonette",
+        "lastname": "anderson",
+        "email": null
+    },
+    {
+        "id": "343",
+        "firstname": "tyree",
+        "lastname": "tommye",
+        "email": "gustavo.hoeger@gmail.com"
+    },
+    {
+        "id": "368",
+        "firstname": "rey",
+        "lastname": "hilpert",
+        "email": null
+    },
+    {
+        "id": "266",
+        "firstname": "lindsay",
+        "lastname": "davis",
+        "email": "morgan.rau@yahoo.com"
+    },
+    {
+        "id": "371",
+        "firstname": "chong",
+        "lastname": "effertz",
+        "email": null
+    },
+    {
+        "id": "500",
+        "firstname": "porsche",
+        "lastname": "shirley",
+        "email": "karissa.connelly@gmail.com"
+    },
+    {
+        "id": "261",
+        "firstname": "jenette",
+        "lastname": "schaden",
+        "email": null
+    },
+    {
+        "id": "127",
+        "firstname": "theo",
+        "lastname": "donovan",
+        "email": "augustine.zemlak@hotmail.com"
+    },
+    {
+        "id": "301",
+        "firstname": "pasquale",
+        "lastname": "dickinson",
+        "email": null
+    },
+    {
+        "id": "625",
+        "firstname": "celia",
+        "lastname": "ebony",
+        "email": "dana.torphy@gmail.com"
+    },
+    {
+        "id": "170",
+        "firstname": "pricilla",
+        "lastname": "monahan",
+        "email": null
+    },
+    {
+        "id": "204",
+        "firstname": "carl",
+        "lastname": "tish",
+        "email": "barry.wiegand@yahoo.com"
+    },
+    {
+        "id": "946",
+        "firstname": "luis",
+        "lastname": "homenick",
+        "email": null
+    },
+    {
+        "id": "981",
+        "firstname": "keena",
+        "lastname": "miesha",
+        "email": "daron.bauch@hotmail.com"
+    },
+    {
+        "id": "836",
+        "firstname": "elisha",
+        "lastname": "waters",
+        "email": null
+    },
+    {
+        "id": "332",
+        "firstname": "jim",
+        "lastname": "charlott",
+        "email": "eusebio.reynolds@gmail.com"
+    },
+    {
+        "id": "309",
+        "firstname": "margaret",
+        "lastname": "smith",
+        "email": null
+    },
+    {
+        "id": "623",
+        "firstname": "tracey",
+        "lastname": "alleen",
+        "email": "francie.medhurst@hotmail.com"
+    },
+    {
+        "id": "755",
+        "firstname": "rusty",
+        "lastname": "brakus",
+        "email": null
+    },
+    {
+        "id": "570",
+        "firstname": "calvin",
+        "lastname": "fredericka",
+        "email": "pearline.klein@yahoo.com"
+    },
+    {
+        "id": "833",
+        "firstname": "tona",
+        "lastname": "white",
+        "email": null
+    },
+    {
+        "id": "116",
+        "firstname": "trey",
+        "lastname": "wilburn",
+        "email": "cherri.schmeler@yahoo.com"
+    },
+    {
+        "id": "303",
+        "firstname": "darcey",
+        "lastname": "frami",
+        "email": null
+    },
+    {
+        "id": "701",
+        "firstname": "aundrea",
+        "lastname": "koss",
+        "email": "samatha.kertzmann@yahoo.com"
+    },
+    {
+        "id": "236",
+        "firstname": "leone",
+        "lastname": "kori",
+        "email": "inocencia.hermann@gmail.com"
+    },
+    {
+        "id": "628",
+        "firstname": "linwood",
+        "lastname": "jacobi",
+        "email": null
+    },
+    {
+        "id": "293",
+        "firstname": "dion",
+        "lastname": "zane",
+        "email": "eddy.prohaska@gmail.com"
+    },
+    {
+        "id": "383",
+        "firstname": "josef",
+        "lastname": "robel",
+        "email": null
+    }
+]
+2026-05-09 19:36:32 [main] ERROR [Thread-3] FAIL : getEmployeeDetails is failed
+2026-05-09 19:36:32 [main] ERROR [Thread-3] FAIL : java.lang.AssertionError: 
+Expecting actual:
+  74
+to be greater than:
+  100

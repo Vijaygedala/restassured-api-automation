@@ -1,0 +1,17 @@
+com\gedala\pojo\Employee.class
+com\gedala\enums\ConfigProperties.class
+com\gedala\reports\ExtentLogger.class
+com\gedala\annotations\FrameWorkAnnotation.class
+com\gedala\pojo\Employee$EmployeeBuilder.class
+com\gedala\utils\FakerUtils.class
+com\gedala\utils\RandomUtils.class
+com\gedala\utils\CrudUtils.class
+com\gedala\logger\FrameWorkLogger.class
+com\gedala\reports\ExtentReport.class
+com\gedala\utils\ApiUtils.class
+com\gedala\utils\propertyUtils.class
+com\gedala\listener\Listener.class
+com\gedala\constants\FrameWorkConstants.class
+com\gedala\requestbuilder\RequestBuilder.class
+com\gedala\utils\dateUtility.class
+com\gedala\reports\Extentmanager.class

@@ -1,0 +1,9 @@
+package com.gedala.enums;
+
+public enum ConfigProperties {
+	
+	BASEURL,
+	OVERRIDEREPORTS,
+	OPENEXTENTREPORTAUTOMATICALLYAFTEREXECUTIONCOMPLETES
+
+}

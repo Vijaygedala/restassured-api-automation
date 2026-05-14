@@ -1,0 +1,71 @@
+{
+  "employees": [
+    {
+      "id": "3",
+      "firstname": "Anita",
+      "lastname": "Reddy",
+      "email": "anita.reddy@example.com"
+    },
+    {
+      "id": "123",
+      "firstname": "VIJAY",
+      "lastname": "GEDALA",
+      "email": "abc@gmail.com"
+    },
+    {
+      "id": "919",
+      "firstname": "christian",
+      "lastname": "carmen",
+      "email": "mariann.haag@gmail.com"
+    },
+    {
+      "id": "773",
+      "firstname": "vada",
+      "lastname": "herzog",
+      "email": null
+    },
+    {
+      "id": "309",
+      "firstname": "martin",
+      "lastname": "rodrick",
+      "email": "beverley.becker@hotmail.com"
+    },
+    {
+      "id": "814",
+      "firstname": "drew",
+      "lastname": "lockman",
+      "email": null
+    },
+    {
+      "id": "162",
+      "firstname": "myong",
+      "lastname": "rolland",
+      "email": "josue.wuckert@gmail.com"
+    },
+    {
+      "id": "769",
+      "firstname": "ivy",
+      "lastname": "medhurst",
+      "email": null
+    },
+    {
+      "id": "931",
+      "firstname": "winter",
+      "lastname": "ellis",
+      "email": "salome.lemke@hotmail.com"
+    },
+    {
+      "id": "237",
+      "firstname": "doreen",
+      "lastname": "ebert",
+      "email": null
+    },
+    {
+      "id": "445",
+      "firstname": "mikaela",
+      "lastname": "fidela",
+      "email": "pasquale.wisoky@gmail.com"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+<listeners>
+		<listener class-name="com.gedala.listener.Listener" />
+	</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.gedala.tests.CrudTest"/>
+      <class name="com.gedala.tests.PostTest"/>
+      <class name="com.gedala.tests.GetTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
